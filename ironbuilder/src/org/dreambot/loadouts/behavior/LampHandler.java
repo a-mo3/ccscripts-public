@@ -1,0 +1,93 @@
+package org.dreambot.loadouts.behavior;
+
+import org.dreambot.api.methods.container.impl.Inventory;
+import org.dreambot.api.methods.dialogues.Dialogues;
+import org.dreambot.api.methods.skills.Skill;
+import org.dreambot.api.methods.widget.Widgets;
+import org.dreambot.api.utilities.Logger;
+import org.dreambot.api.wrappers.items.Item;
+import org.dreambot.api.wrappers.widgets.WidgetChild;
+import org.dreambot.fractals.IronFractal;
+import org.dreambot.utility.Dialog;
+
+import java.util.Arrays;
+import java.util.Comparator;
+
+// i pinch from youler
+public class LampHandler extends IronFractal {
+    public static Skill skill = Skill.HITPOINTS;
+    static int[] lampIds = new int[]{
+            23072,
+            21262,
+            2528,// genie lamp
+            13146, // wildy med diary
+            13145, // wildy easy diary
+            28132 // barrows lamp from icon
+    };
+
+    public LampHandler() {
+        super(() -> Inventory.contains(lampIds));
+    }
+
+
+    @Override
+    public int onLoop() {
+        if (Dialogues.inDialogue()) Dialog.solve("");
+        if (skillTextWidget() != null && skillTextWidget().isVisible()) {
+            WidgetChild c = getConfirmWidgetText();
+            log("Text widget " + c);
+            if (c != null) log(c.getText());
+            if (c != null && c.getText().toLowerCase().contains(skillToLevel())) {
+                WidgetChild confirmButton = getConfirmButton();
+                Logger.info("confirm button: " + confirmButton);
+                if (confirmButton != null && confirmButton.interact()) {
+                    return sleep();
+                }
+                return sleep();
+            }
+
+            WidgetChild w = Widgets.get(s -> s.getParentID() == 240 && s.hasAction(skillToLevel()));
+            Logger.info("W = " + w);
+            if (w != null && w.interact()) {
+                return sleep();
+            } else {
+                Item lamp = Inventory.get(x -> Arrays.stream(lampIds).anyMatch(i -> i == x.getId()) || x.getName().toLowerCase().contains("lamp"));
+                Logger.info("Rub Lamp");
+                if (Inventory.interact(lamp)) {
+                    return sleep();
+                }
+            }
+
+            return sleep();
+        }
+
+        if (Widgets.isOpen()) {
+            Logger.info("CloseAll");
+            Widgets.closeAll();
+        }
+
+        Item lamp = Inventory.get(x -> Arrays.stream(lampIds).anyMatch(i -> i == x.getId()) || x.getName().toLowerCase().contains("lamp"));
+        Logger.info("Rub Lamp");
+        if (Inventory.interact(lamp)) {
+            return sleep();
+        }
+        return sleep();
+    }
+
+    private WidgetChild skillTextWidget() {
+        return Widgets.get(240, 25);
+    }
+
+    private WidgetChild getConfirmWidgetText() {
+        return Widgets.get(240, 27, 9);
+    }
+
+    private WidgetChild getConfirmButton() {
+        return Widgets.get(240, 27, 9);
+    }
+
+    private String skillToLevel() {
+        return Arrays.stream(Skill.values()).max(Comparator.comparingInt(Skill::getLevel)).orElse(Skill.HITPOINTS).getName().toLowerCase();
+    }
+
+}

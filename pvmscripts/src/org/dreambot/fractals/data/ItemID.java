@@ -1,0 +1,2223 @@
+package org.dreambot.fractals.data;
+
+public class ItemID {
+    public static int ANCIENT_BRACERS = 12490;
+    public static int ANCIENT_DHIDE_BODY = 12492;
+    public static int ANCIENT_CHAPS = 12494;
+    public static int ANCIENT_COIF = 12496;
+
+    public static int SCORCHING_BOW = 29591;
+
+    public static int TORMENTED_SYNAPSE = 29580;
+
+    public static int RUNE_THROWNAXE = 805;
+    public static int BRONZE_DART = 806;
+    public static int IRON_DART = 807;
+    public static int STEEL_DART = 808;
+    public static int MITHRIL_DART = 809;
+
+    public static int FLY_FISHING_ROD = 309;
+    public static int MYSTIC_HAT = 4089;
+
+    public static int GRUBBY_KEY = 23499;
+
+    public static int DRAGONFRUIT_TREE_SEED = 22877;
+    public static int CELASTRUS_SEED = 22869;
+    public static int REDWOOD_TREE_SEED = 22871;
+
+
+    public static int BLACK_CANDLE = 38;
+
+    public static int BAT_BONES = 530;
+
+    public static int CHAOS_TALISMAN = 1452;
+
+    public static int ENCHANTED_WATER_TALISMAN = 28964;
+    public static int ENCHANTED_EARTH_TALISMAN = 28965;
+
+    public static int INFUSED_WATER_TALISMAN = 28966;
+    public static int INFUSED_EARTH_TALISMAN = 28967;
+
+    public static int GLACIAL_TEMOTLI = 29889;
+
+    public static int SNAPE_GRASS = 231;
+    public static int SEERS_RING_I = 11770;
+    public static int ARCHERS_RING_I = 11771;
+    public static int WARRIOR_RING_I = 11772;
+    public static int BERSERKER_RING_I = 11773;
+    public static int LIGHTBEARER = 25975;
+
+    public static int SEERS_RING = 6731;
+    public static int ARCHERS_RING = 6733;
+    public static int WARRIOR_RING = 6735;
+    public static int BERSERKER_RING = 6737;
+
+    public static int COMBINATION = 3102; // death plateau
+    public static int OBBY_SWORD_TOKTZXILAK = 6523;
+    public static int OBSIDIAN_AMULET = 4188;
+    public static int DWARVEN_ROCK_CAKE_7510 = 7510; // cooled
+    public static int ASGOLDIAN_ALE = 7508;
+    public static int BOWL_OF_WATER = 1921;
+    public static int BOWL = 1923;
+    public static int DIRTY_BLAST = 7497;
+    public static int ASHES = 592;
+    public static int FRUIT_BLAST = 2084;
+    public static int ROTTEN_TOMATO = 2518;
+    public static int GREENMANS_ALE = 1909;
+    public static int EYE_OF_NEWT = 221;
+    public static int VARLAMORE_CREST = 28973;
+    public static int BANDOS_STOLE = 12269;
+    public static int SCRYING_ORB = 5518;
+    public static int SCRYING_ORB_5519 = 5519;
+
+    public static int MUSHROOM_POTATO = 7058;
+    public static int CRUSHED_NEST = 6693;
+    public static int CRYSTAL_KEY = 989;
+    public static int SUPER_DEFENCE3 = 163;
+    public static int PIE_DISH = 2313;
+    public static int RUNE_POUCH_NOTE = 24587;
+    public static int RUNE_POUCH = 12791;
+    public static int VILE_ASHES = 25769;
+    public static int MITH_GRAPPLE = 9418;
+    public static int MITH_GRAPPLE_9419 = 9419;
+    // witchs house
+    public static int DOOR_KEY = 2409;
+    public static int MAGNET = 2410;
+    public static int KEY_2411 = 2411;
+
+    public static int LEATHER_GLOVES = 1059;
+    public static int CHEESE = 1985;
+    public static int KARILS_LEATHERTOP_100 = 4940;
+    public static int KARILS_LEATHERTOP_75 = 4941;
+    public static int KARILS_LEATHERTOP_50 = 4942;
+    public static int KARILS_LEATHERTOP_25 = 4943;
+    public static int KARILS_LEATHERTOP_0 = 4944;
+    public static int KARILS_LEATHERSKIRT_100 = 4946;
+    public static int KARILS_LEATHERSKIRT_75 = 4947;
+    public static int KARILS_LEATHERSKIRT_50 = 4948;
+    public static int KARILS_LEATHERSKIRT_25 = 4949;
+    public static int KARILS_LEATHERSKIRT_0 = 4950;
+    public static int KARILS_LEATHERTOP = 4736;
+    public static int KARILS_LEATHERSKIRT = 4738;
+
+    public static int KARILS_COIF = 4732;
+    public static int KARILS_COIF_100 = 4928;
+    public static int KARILS_COIF_75 = 4929;
+    public static int KARILS_COIF_50 = 4930;
+    public static int KARILS_COIF_25 = 4931;
+    public static int KARILS_COIF_0 = 4932;
+
+    public static int MAPLE_BLACKJACK = 6416;
+    // the feud
+    public static int KHARIDIAN_HEADPIECE = 4591;
+    public static int FAKE_BEARD = 4593;
+    public static int DESERT_DISGUISE = 4611;
+
+    public static int CUP_OF_TEA = 1978;
+    // troll stronghold quest
+    public static int PRISON_KEY = 3135;
+    public static int CELL_KEY_1 = 3136;
+    public static int CELL_KEY_2 = 3137;
+    // fight arena quest
+    public static int SPIKED_BOOTS = 3107;
+    public static int KHAZARD_HELMET = 74;
+    public static int KHAZARD_ARMOUR = 75;
+    public static int KHAZARD_CELL_KEYS = 76;
+    public static int KHALI_BREW = 77;
+    public static int DIAMOND = 1601;
+    public static int SARADOMINS_LIGHT = 13256;
+    public static int STEAM_RUNE = 4694;
+    public static int MIST_RUNE = 4695;
+    public static int DUST_RUNE = 4696;
+    public static int SMOKE_RUNE = 4697;
+    public static int ODIUM_WARD = 11926;
+    public static int DRAGON_CROSSBOW = 21902;
+    public static int RED_DRAGONHIDE = 1749;
+    public static int GRIMY_TOADFLAX = 3049;
+    public static int FISHING_PASS = 27;
+    public static int TEASING_STICK = 10029;
+    public static int SUNLIGHT_ANTLER_BOLTS = 28872;
+    public static int SUNLIGHT_ANTELOPE = 28867;
+    public static int RAW_SUNLIGHT_ANTELOPE = 29116;
+    public static int SUNLIGHT_ANTELOPE_ANTLER = 29168;
+    public static int SUNLIGHT_ANTELOPE_FUR = 29177;
+    public static int SUNFIRE_SPLINTERS = 28924;
+    public static int ELDER_CHAOS_HOOD = 20595;
+    public static int ELDER_CHAOS_TOP = 20517;
+    public static int ELDER_CHAOS_ROBE = 20520;
+    public static int MIXED_HIDE_TOP = 29280;
+    public static int MIXED_HIDE_LEGS = 29283;
+    public static int MIXED_HIDE_BOOTS = 29286;
+    public static int MIXED_HIDE_CAPE = 29289;
+    public static int MIXED_HIDE_BASE = 29292;
+    public static int BLUE_DRAGONHIDE = 1751;
+    public static int SUMMER_PIE = 7218;
+    public static int HALF_A_SUMMER_PIE = 7220;
+    public static int MYSTIC_ROBE_BOTTOM = 4093;
+    public static int GRACEFUL_HOOD = 11850;
+    public static int GRACEFUL_HOOD_11851 = 11851;
+    public static int GRACEFUL_CAPE = 11852;
+    public static int GRACEFUL_CAPE_11853 = 11853;
+    public static int GRACEFUL_TOP = 11854;
+    public static int GRACEFUL_TOP_11855 = 11855;
+    public static int GRACEFUL_LEGS = 11856;
+    public static int ABYSSAL_DAGGER = 13265;
+    public static int GRACEFUL_LEGS_11857 = 11857;
+    public static int GRACEFUL_GLOVES = 11858;
+    public static int GRACEFUL_GLOVES_11859 = 11859;
+    public static int GRACEFUL_BOOTS = 11860;
+    public static int GRACEFUL_BOOTS_11861 = 11861;
+    public static int RESEARCH_NOTES = 291;
+    public static int RESEARCH_PACKAGE = 290;
+    public static int FAKE_MAN = 3268;
+    public static int STOREROOM_KEY = 3269;
+    public static int GOUTWEED = 3261;
+    public static int TROLL_THISTLE = 3262;
+    public static int DRIED_THISTLE = 3263;
+    public static int GROUND_THISTLE = 3264;
+    public static int TROLL_POTION = 3265;
+    public static int RANARR_POTION_UNF = 99;
+    public static int GRAIN = 1947;
+    public static int DIRTY_ROBE = 3267;
+    public static int VODKA = 2015;
+    public static int DRUNK_PARROT = 3266;
+    public static int PINEAPPLE_CHUNKS = 2116;
+    public static int SERVERY_PINEAPPLE_CHUNKS = 13411;
+    public static int ALCOCHUNKS = 3270;
+    public static int AIR_TALISMAN = 1438;
+    public static int PROSPECTOR_HELMET = 12013;
+    public static int PROSPECTOR_JACKET = 12014;
+    public static int PROSPECTOR_LEGS = 12015;
+    public static int PROSPECTOR_BOOTS = 12016;
+    public static int GOLDEN_NUGGET = 12012;
+    public static int ICE_GLOVES = 1580;
+    public static int PAYDIRT = 12011;
+    public static int DRAMEN_BRANCH = 771;
+    public static int DRAMEN_STAFF = 772;
+    public static int MIST_BATTLESTAFF = 20730;
+    public static int MYSTIC_MIST_STAFF = 20733;
+    public static int DUST_BATTLESTAFF = 20736;
+    public static int SMOKE_BATTLESTAFF = 11998;
+    public static int DENSE_ESSENCE_BLOCK = 13445;
+    public static int DARK_ESSENCE_BLOCK = 13446;
+    public static int ARCEUUS_LIBRARY_TELEPORT = 19613;
+    public static int DRAYNOR_MANOR_TELEPORT = 19615;
+    public static int MIND_ALTAR_TELEPORT = 19617;
+    public static int SALVE_GRAVEYARD_TELEPORT = 19619;
+    public static int FENKENSTRAINS_CASTLE_TELEPORT = 19621;
+    public static int WEST_ARDOUGNE_TELEPORT = 19623;
+    public static int HARMONY_ISLAND_TELEPORT = 19625;
+    public static int CEMETERY_TELEPORT = 19627;
+    public static int BARROWS_TELEPORT = 19629;
+    public static int APE_ATOLL_TELEPORT = 19631;
+    public static int ADAMANT_PICKAXE = 1271;
+    public static int DRAGONSTONE_BOLT_TIPS = 9193;
+    public static int BLURBERRY_SPECIAL = 2064;
+    public static int ASGARNIAN_ALE = 1905;
+    public static int TROUT = 333;
+    public static int BREAD = 2309;
+    public static int DRAGONSTONE_BOLTS = 9341;
+    public static int TEAK_PLANK = 8780;
+    public static int MAHOGANY_PLANK = 8782;
+    public static int AMULET_OF_AVARICE = 22557;
+    public static int REVENANT_CAVE_TELEPORT = 21802;
+    public static int BRACELET_OF_ETHEREUM = 21816;
+    public static int BRACELET_OF_ETHEREUM_UNCHARGED = 21817;
+    public static int DRAGON_DAGGER = 1215;
+    public static int DRAGON_LONGSWORD = 1305;
+    public static int ANCIENT_MEDALLION = 22299;
+    public static int ANCIENT_EFFIGY = 22302;
+    public static int ANCIENT_RELIC = 22305;
+    public static int ANCIENT_CRYSTAL = 21804;
+    public static int ANCIENT_EMBLEM = 21807;
+    public static int ANCIENT_TOTEM = 21810;
+    public static int ANCIENT_STATUETTE = 21813;
+
+    public static int WINE_OF_ZAMORAK_23489 = 23489;
+    public static int WINE_OF_ZAMORAK = 245;
+    public static int ANCIENT_STAFF = 4675;
+    public static int MORT_MYRE_FUNGUS = 2970;
+    public static int ARMADYL_GODSWORD = 11802;
+    public static int BANDOS_GODSWORD = 11804;
+    public static int SARADOMIN_GODSWORD = 11806;
+    public static int ZAMORAK_GODSWORD = 11808;
+    public static int ELDER_MAUL = 21003;
+    public static int SALVE_AMULET = 4081;
+    public static int SALVE_AMULET_E = 10588;
+    public static int SALVE_AMULETI = 12017;
+    public static int SALVE_AMULETEI = 12018;
+
+    public static int ABYSSAL_BLUDGEON = 13263;
+    public static int BOX_TRAP = 10008;
+    public static int LONG_KEBBIT_BOLTS = 10159;
+    public static int EAGLE_FEATHER = 10167;
+    public static int EAGLE_CAPE = 10171;
+    public static int FAKE_BEAK = 10172;
+    public static int BIRD_BOOK = 10173;
+    public static int METAL_FEATHER = 10174;
+    public static int GOLDEN_FEATHER_10175 = 10175;
+    public static int SILVER_FEATHER = 10176;
+    public static int BRONZE_FEATHER = 10177;
+    public static int ODD_BIRD_SEED = 10178;
+    public static int SWAMP_TAR = 1939;
+    public static int GOLDEN_FEATHER = 2950;
+    public static int CHINCHOMPA = 10033;
+    public static int RED_CHINCHOMPA = 10034;
+    public static int BLACK_CHINCHOMPA = 11959;
+    public static int PAPAYA_FRUIT = 5972;
+    public static int WHITE_BERRIES = 239;
+    public static int BIG_BONES = 532;
+    public static int OAK_PLANK = 8778;
+    public static int CHAOS_TIARA = 5543;
+    public static int RED_SPIDERS_EGGS = 223;
+    public static int ARMADYL_FULL_HELM = 12476;
+    public static int BOW_OF_FAERDHINEN_INACTIVE = 25862;
+    public static int BOW_OF_FAERDHINEN = 25865;
+    public static int ECUMENICAL_KEY = 11942;
+    public static int GREEN_DHIDE_SHIELD = 22275;
+    public static int BLUE_DHIDE_SHIELD = 22278;
+    public static int RED_DHIDE_SHIELD = 22281;
+    public static int BLACK_DHIDE_SHIELD = 22284;
+
+    public static int SWORDFISH = 373;
+    public static int MUDDY_KEY = 991;
+
+    public static int BURNING_AMULET5 = 21166;
+    public static int BURNING_AMULET4 = 21169;
+    public static int BURNING_AMULET3 = 21171;
+    public static int BURNING_AMULET2 = 21173;
+    public static int BURNING_AMULET1 = 21175;
+    public static int ARMADYL_MITRE = 12259;
+
+    public static int UNHOLY_SYMBOL = 1724;
+    public static int STAFF_OF_EARTH = 1385;
+    public static int ENERGY_POTION4 = 3008;
+    public static int ENERGY_POTION3 = 3010;
+    public static int ENERGY_POTION2 = 3012;
+    public static int ENERGY_POTION1 = 3014;
+
+    public static int UNPOWERED_ORB = 567;
+    public static int EARTH_ORB = 575;
+    public static int RUNE_PICKAXE = 1275;
+    public static int MITHRIL_PICKAXE = 1273;
+    public static int INFERNAL_CAPE = 21295;
+    public static int BARROWS_GLOVES = 7462;
+    public static int AHRIMS_HOOD = 4708;
+    public static int AHRIMS_STAFF = 4710;
+    public static int AHRIMS_ROBETOP = 4712;
+    public static int AHRIMS_ROBESKIRT = 4714;
+    public static int AHRIMS_HOOD_100 = 4856;
+    public static int AHRIMS_HOOD_75 = 4857;
+    public static int AHRIMS_HOOD_50 = 4858;
+    public static int AHRIMS_HOOD_25 = 4859;
+    public static int AHRIMS_HOOD_0 = 4860;
+    public static int AHRIMS_STAFF_100 = 4862;
+    public static int AHRIMS_STAFF_75 = 4863;
+    public static int AHRIMS_STAFF_50 = 4864;
+    public static int AHRIMS_STAFF_25 = 4865;
+    public static int AHRIMS_STAFF_0 = 4866;
+    public static int AHRIMS_ROBETOP_100 = 4868;
+    public static int AHRIMS_ROBETOP_75 = 4869;
+    public static int AHRIMS_ROBETOP_50 = 4870;
+    public static int AHRIMS_ROBETOP_25 = 4871;
+    public static int AHRIMS_ROBETOP_0 = 4872;
+    public static int AHRIMS_ROBESKIRT_100 = 4874;
+    public static int AHRIMS_ROBESKIRT_75 = 4875;
+    public static int AHRIMS_ROBESKIRT_50 = 4876;
+    public static int AHRIMS_ROBESKIRT_25 = 4877;
+    public static int AHRIMS_ROBESKIRT_0 = 4878;
+
+    public static int RAW_MONKFISH = 7944;
+    public static int MONKFISH = 7946;
+    public static int ZULRAHS_SCALES = 12934;
+
+    public static int SERPENTINE_VISAGE = 12927;
+    public static int SERPENTINE_HELM_UNCHARGED = 12929;
+    public static int SERPENTINE_HELM = 12931;
+
+    public static int TRIDENT_OF_THE_SEAS_E = 22288;
+    public static int UNCHARGED_TRIDENT_E = 22290;
+    public static int TRIDENT_OF_THE_SWAMP_E = 22292;
+    public static int UNCHARGED_TOXIC_TRIDENT_E = 22294;
+    public static int TRIDENT_OF_THE_SWAMP = 12899;
+    public static int UNCHARGED_TOXIC_TRIDENT = 12900;
+    public static int TOXIC_STAFF_UNCHARGED = 12902;
+    public static int TOXIC_STAFF_OF_THE_DEAD = 12904;
+    public static int RAW_MANTA_RAY = 389;
+    public static int MANTA_RAY = 391;
+
+    public static int ZULANDRA_TELEPORT = 12938;
+    public static int COOKED_KARAMBWAN = 3144;
+    public static int GUTHIX_CAPE = 2413;
+    public static int ZAMORAK_CAPE = 2414;
+    public static int SARADOMIN_STAFF = 2415;
+    public static int GUTHIX_STAFF = 2416;
+    public static int ZAMORAK_STAFF = 2417;
+    public static int BRONZE_KEY = 2418;
+    public static int CERTIFICATE_21775 = 21775;
+    public static int IMBUED_SARADOMIN_MAX_CAPE = 21776;
+    public static int IMBUED_SARADOMIN_MAX_HOOD = 21778;
+    public static int IMBUED_ZAMORAK_MAX_CAPE = 21780;
+    public static int IMBUED_ZAMORAK_MAX_HOOD = 21782;
+    public static int IMBUED_GUTHIX_MAX_CAPE = 21784;
+    public static int IMBUED_GUTHIX_MAX_HOOD = 21786;
+    public static int OBELISK = 21788;
+    public static int IMBUED_SARADOMIN_CAPE = 21791;
+    public static int IMBUED_GUTHIX_CAPE = 21793;
+    public static int IMBUED_ZAMORAK_CAPE = 21795;
+    public static int JUSTICIARS_HAND = 21797;
+    public static int ENTS_ROOTS = 21798;
+    public static int SARADOMIN_CAPE = 2412;
+    public static int TEAM1_CAPE = 4315;
+    public static int ARDOUGNE_CLOAK_1 = 13121;
+    public static int ARDOUGNE_CLOAK_2 = 13122;
+    public static int ARDOUGNE_CLOAK_3 = 13123;
+    public static int ARDOUGNE_CLOAK_4 = 13124;
+    public static int OCCULT_NECKLACE = 12002;
+    public static int PINK_CAPE = 6959;
+    public static int BOOK_OF_DARKNESS = 12612;
+    public static int UNHOLY_BOOK = 3842;
+    public static int DAMAGED_BOOK_3843 = 3843;
+    public static int MALEDICTION_WARD = 11924;
+    public static int ORANGE_CAPE = 1031;
+    public static int AVAS_ASSEMBLER = 22109;
+    public static int BANDOS_DHIDE_BODY = 12500;
+    public static int BANDOS_DHIDE_BOOTS = 19924;
+    public static int GUTHIX_DHIDE_BOOTS = 19927;
+    public static int ARMADYL_DHIDE_BOOTS = 19930;
+    public static int ANTIVENOM4 = 12905;
+    public static int ANTIVENOM3 = 12907;
+    public static int ANTIVENOM2 = 12909;
+    public static int ANTIVENOM1 = 12911;
+    public static int ANTIVENOM4_12913 = 12913;
+    public static int ANTIVENOM3_12915 = 12915;
+    public static int ANTIVENOM2_12917 = 12917;
+    public static int ANTIVENOM1_12919 = 12919;
+    public static int PET_SNAKELING = 12921;
+    public static int TANZANITE_FANG = 12922;
+    public static int TOXIC_BLOWPIPE_EMPTY = 12924;
+    public static int TOXIC_BLOWPIPE = 12926;
+    public static int BANDOS_BRACERS = 12498;
+    public static int WAR_BLESSING = 20232;
+    public static int BANDOS_CHAPS = 12502;
+
+
+    public static int OBSIDIAN_CAPE = 6568;
+    public static int OBSIDIAN_HELMET = 21298;
+    public static int OBSIDIAN_PLATEBODY = 21301;
+    public static int OBSIDIAN_PLATELEGS = 21304;
+    public static int TOKTZKETXIL_OBSIDIAN_SHIELD = 6524; // obsidian shield
+
+    public static int MOONLIGHT_GRUB = 29078;
+    public static int MOONLIGHT_GRUB_PASTE = 29079;
+    public static int SULPHUR_BLADES = 29084;
+    public static int DRAGON_BOOTS = 11840;
+    public static int MOONLIGHT_POTION4 = 29080;
+    public static int MOONLIGHT_POTION3 = 29081;
+    public static int MOONLIGHT_POTION2 = 29082;
+    public static int MOONLIGHT_POTION1 = 29083;
+
+    public static int VIAL_OF_WATER = 227;
+    public static int SARADOMIN_MITRE = 10452;
+    public static int WYRM_BONES = 22780;
+    public static int PESTLE_AND_MORTAR = 233;
+    public static int SAW = 8794;
+    public static int PLANK = 960;
+    public static int STEEL_NAILS = 1539;
+
+    public static int LEAFBLADED_BATTLEAXE = 20727;
+    public static int SPOTTED_KEBBIT_FUR = 10125;
+    public static int RAW_DASHING_KEBBIT = 29107;
+    public static int KEBBITY_TUFT = 29223;
+    public static int DARK_KEBBIT_FUR = 10115;
+    public static int DASHING_KEBBIT_FUR = 10127;
+    public static int FALCONERS_GLOVE = 10023;
+    public static int BONES = 526;
+    public static int FALCONERS_GLOVE_10024 = 10024;
+    public static int FELDIP_HILLS_TELEPORT = 12404;
+    public static int RAW_BIRD_MEAT = 9978;
+    public static int BIRD_SNARE = 10006;
+    public static int PISCATORIS_TELEPORT = 12408;
+    public static int DESERT_SHIRT = 1833;
+    public static int DESERT_ROBE = 1835;
+    public static int DESERT_BOOTS = 1837;
+
+    public static int WATERSKIN4 = 1823;
+    public static int WATERSKIN3 = 1825;
+    public static int WATERSKIN2 = 1827;
+    public static int WATERSKIN1 = 1829;
+
+    public static int ICE_COOLER = 6696;
+
+    public static int FIRE_RUNE = 554;
+    public static int ROCK_HAMMER = 4162;
+    public static int INSULATED_BOOTS = 7159;
+    public static int BOOTS_OF_STONE = 23037;
+    public static int NOSE_PEG = 4168;
+    public static int KOUREND_CASTLE_TELEPORT = 28790;
+    public static int TELEPORT_TO_HOUSE = 8013;
+    public static int RUBY_BOLTS_E = 9242;
+    public static int DIAMOND_BOLTS_E = 9243;
+    public static int DIAMOND_DRAGON_BOLTS_E = 21946;
+    public static int BOW_STRING = 1777;
+    public static int GRIMY_HARRALANDER = 205;
+    public static int GRIMY_GUAM_LEAF = 199;
+    public static int ADAMANTITE_ORE = 449;
+    public static int ADAMANT_FULL_HELM = 1161;
+    public static int RUNE_DAGGER = 1213;
+    public static int RUNE_FULL_HELM = 1163;
+    public static int MITHRIL_SPEAR = 1243;
+    public static int COMBAT_POTION4 = 9739;
+    public static int COMBAT_POTION3 = 9741;
+    public static int COMBAT_POTION2 = 9743;
+    public static int COMBAT_POTION1 = 9745;
+    public static int RANGING_POTION4 = 2444;
+    public static int RANGING_POTION3 = 169;
+    public static int RANGING_POTION2 = 171;
+    public static int RANGING_POTION1 = 173;
+    public static int SNAKESKIN_BODY = 6322;
+    public static int SNAKESKIN_CHAPS = 6324;
+    public static int SNAKESKIN_BANDANA = 6326;
+    public static int SNAKESKIN_BOOTS = 6328;
+    public static int SNAKESKIN_VAMBRACES = 6330;
+    public static int PRAYER_POTION4 = 2434;
+    public static int PRAYER_POTION3 = 139;
+    public static int PRAYER_POTION2 = 141;
+    public static int PRAYER_POTION1 = 143;
+
+    public static int ABYSSAL_WHIP = 4151;
+    public static int DRAGON_BONES = 536;
+    public static int GREEN_DRAGONHIDE = 1753;
+    public static int DRAGON_SWORD = 21009;
+    public static int CLIMBING_BOOTS = 3105;
+    public static int ANTIDRAGON_SHIELD = 1540;
+    public static int LEATHER_BODY = 1129;
+    public static int BLUE_DHIDE_CHAPS = 2493;
+    public static int GREEN_DHIDE_CHAPS = 1099;
+    public static int RED_DHIDE_CHAPS = 2495;
+    public static int BLACK_DHIDE_CHAPS = 2497;
+    public static int BLUE_DHIDE_BODY = 2499;
+    public static int RED_DHIDE_BODY = 2501;
+    public static int BLACK_DHIDE_BODY = 2503;
+    public static int LEATHER_CHAPS = 1095;
+
+    public static int IRON_ARROW = 884;
+    public static int IRON_ARROWP = 885;
+    public static int STEEL_ARROW = 886;
+    public static int STEEL_ARROWP = 887;
+    public static int MITHRIL_ARROW = 888;
+
+
+    public static int OAK_SHORTBOW = 843;
+    public static int OAK_LONGBOW = 845;
+    public static int WILLOW_LONGBOW = 847;
+    public static int WILLOW_SHORTBOW = 849;
+    public static int MAPLE_LONGBOW = 851;
+    public static int MAPLE_SHORTBOW = 853;
+    public static int YEW_LONGBOW = 855;
+    public static int YEW_SHORTBOW = 857;
+    public static int MAGIC_LONGBOW = 859;
+    public static int MAGIC_SHORTBOW = 861;
+    public static int SHORTBOW = 841;
+    public static int RUNE_CROSSBOW = 9185;
+    public static int DRACONIC_VISAGE = 11286;
+
+    public static int RING_OF_DUELING7 = 2554;
+    public static int RING_OF_DUELING6 = 2556;
+    public static int RING_OF_DUELING5 = 2558;
+    public static int RING_OF_DUELING4 = 2560;
+    public static int RING_OF_DUELING3 = 2562;
+    public static int RING_OF_DUELING2 = 2564;
+    public static int RING_OF_DUELING1 = 2566;
+    public static int REVENANT_ETHER = 21820;
+    public static int BURNT_BONES = 528;
+    public static int THAMMARONS_SCEPTRE_U = 22552;
+    public static int THAMMARONS_SCEPTRE = 22555;
+    public static int ACCURSED_SCEPTRE_U = 27662;
+    public static int ACCURSED_SCEPTRE = 27665;
+    public static int COINS_995 = 995;
+    public static int JUG = 1935;
+
+    public static int RED_BEAD = 1470;
+    public static int YELLOW_BEAD = 1472;
+    public static int BLACK_BEAD = 1474;
+    public static int WHITE_BEAD = 1476;
+
+    public static int SAPPHIRE_RING = 1637;
+    public static int EMERALD_RING = 1639;
+
+    public static int RING_OF_DUELING8 = 2552;
+    public static int RING_OF_RECOIL = 2550;
+    public static int COSMIC_RUNE = 564;
+    public static int LAVA_SCALE = 11992;
+
+    public static int STAFF_OF_WATER = 1383;
+    public static int STAFF_OF_AIR = 1381;
+    public static int CHAOS_RUNE = 562;
+
+    public static int ONYX_BOLT_TIPS = 9194;
+
+    public static int COMBAT_BRACELET6 = 11972;
+    public static int COMBAT_BRACELET5 = 11974;
+    public static int COMBAT_BRACELET4 = 11118;
+    public static int COMBAT_BRACELET3 = 11120;
+    public static int COMBAT_BRACELET2 = 11122;
+    public static int COMBAT_BRACELET1 = 11124;
+    public static int OLD_SCHOOL_BOND = 13190;
+    public static int OLD_SCHOOL_BOND_UNTRADEABLE = 13192;
+    public static int AMULET_OF_GLORY1 = 1706;
+    public static int AMULET_OF_GLORY2 = 1708;
+    public static int AMULET_OF_GLORY3 = 1710;
+    public static int AMULET_OF_GLORY4 = 1712;
+    public static int AMULET_OF_GLORY5 = 11976;
+    public static int AMULET_OF_GLORY6 = 11978;
+
+    public static int AMULET_OF_GLORY_UNCHARGED = 1704;
+
+    public static int STEEL_BAR = 2353;
+    public static int DOUBLE_AMMO_MOULD = 27012;
+    public static int CANNONBALL = 2;
+    public static int BRONZE_PICKAXE = 1265;
+    public static int LOBSTER = 379;
+    public static int REDBERRY_PIE = 2325;
+    public static int VARROCK_TELEPORT = 8007;
+    public static int LUMBRIDGE_TELEPORT = 8008;
+    public static int FALADOR_TELEPORT = 8009;
+    public static int CAMELOT_TELEPORT = 8010;
+    public static int IRON_BAR = 2351;
+
+    public static int SKILLS_NECKLACE6 = 11968;
+    public static int SKILLS_NECKLACE5 = 11970;
+    public static int SKILLS_NECKLACE4 = 11105;
+    public static int SKILLS_NECKLACE3 = 11107;
+    public static int SKILLS_NECKLACE2 = 11109;
+    public static int SKILLS_NECKLACE1 = 11111;
+    //    public static  int SKILLS_NECKLACE = 11113;
+    public static int STAMINA_POTION4 = 12625;
+    public static int STAMINA_POTION3 = 12627;
+    public static int STAMINA_POTION2 = 12629;
+    public static int STAMINA_POTION1 = 12631;
+
+    public static int RING_OF_WEALTH_5 = 11980;
+    public static int RING_OF_WEALTH_4 = 11982;
+    public static int RING_OF_WEALTH_3 = 11984;
+    public static int RING_OF_WEALTH_2 = 11986;
+    public static int RING_OF_WEALTH_1 = 11988;
+    public static int AIR_RUNE = 556;
+    public static int JUG_OF_WINE = 1993;
+    public static int KNIFE = 946;
+    public static int STAFF_OF_FIRE = 1387;
+    public static int RUNE_DART = 811;
+    public static int RUNE_KNIFE = 868;
+    public static int ADAMANT_2H_SWORD = 1317;
+    public static int ADAMANT_PLATEBODY = 1123;
+    public static int RUNE_AXE = 1359;
+    public static int RUNE_LONGSWORD = 1303;
+    public static int RUNE_KITESHIELD = 1201;
+    public static int RUNE_MED_HELM = 1147;
+    public static int MITHRIL_KITESHIELD = 1197;
+    public static int LAVA_BATTLESTAFF = 3053;
+    public static int RUNE_JAVELIN = 830;
+    public static int BLOOD_RUNE = 565;
+    public static int RUNITE_BOLTS = 9144;
+    public static int LAW_RUNE = 563;
+    public static int LAVA_RUNE = 4699;
+    public static int GRIMY_RANARR_WEED = 207;
+    public static int GRIMY_IRIT_LEAF = 209;
+    public static int GRIMY_AVANTOE = 211;
+    public static int GRIMY_KWUARM = 213;
+    public static int GRIMY_CADANTINE = 215;
+    public static int GRIMY_DWARF_WEED = 217;
+    public static int GRIMY_LANTADYME = 2485;
+    public static int DRAGON_JAVELIN_HEADS = 19582;
+    public static int FIRE_ORB = 569;
+    public static int ADAMANTITE_BAR = 2361;
+    public static int TOOTH_HALF_OF_KEY = 985;
+    public static int LOOP_HALF_OF_KEY = 987;
+    public static int AMULET_OF_GLORY = 1704;
+    public static int RUNE_ARROW = 892;
+    public static int SILVER_ORE = 442;
+    public static int FIRE_TALISMAN = 1442;
+    public static int DRAGON_MED_HELM = 1149;
+    public static int DRAGON_SPEAR = 1249;
+    public static int DRAGONSTONE = 1615;
+    public static int MTA_DRAGONSTONE = 6903;
+    public static int UNCUT_DIAMOND = 1617;
+    public static int UNCUT_RUBY = 1619;
+    public static int ADAMANT_JAVELIN = 829;
+    public static int RUNE_BATTLEAXE = 1373;
+    public static int RUNE_SQ_SHIELD = 1185;
+    public static int RUNE_2H_SWORD = 1319;
+    public static int RUNE_SPEAR = 1247;
+    public static int RUNITE_BAR = 2363;
+    public static int DEATH_RUNE = 560;
+    public static int NATURE_RUNE = 561;
+    public static int SHIELD_LEFT_HALF = 2366;
+    public static int LAVA_DRAGON_BONES = 11943;
+    public static int BLACK_DRAGONHIDE = 1747;
+
+    public static int TRIDENT_OF_THE_SEAS_FULL = 11905;
+    public static int TRIDENT_OF_THE_SEAS = 11907;
+    public static int UNCHARGED_TRIDENT = 11908;
+    public static int SHARK = 385;
+    public static int ENSOULED_DRAGON_HEAD = 13510;
+    public static int ENSOULED_DRAGON_HEAD_13511 = 13511;
+
+    public static int LOOTING_BAG_OPENED = 22586;
+    public static int LOOTING_BAG_CLOSED = 11941;
+
+    public static int IRON_SWORD = 1279;
+    public static int MITHRIL_SWORD = 1285;
+    public static int ADAMANT_SWORD = 1287;
+    public static int RUNE_SWORD = 1289;
+
+    public static int IRON_PLATESKIRT = 1081;
+    public static int STEEL_PLATESKIRT = 1083;
+    public static int MITHRIL_PLATESKIRT = 1085;
+    public static int BRONZE_PLATESKIRT = 1087;
+    public static int BLACK_PLATESKIRT = 1089;
+    public static int ADAMANT_PLATESKIRT = 1091;
+    public static int RUNE_PLATESKIRT = 1093;
+    public static int IRON_PLATEBODY = 1115;
+    public static int BRONZE_PLATEBODY = 1117;
+    public static int STEEL_PLATEBODY = 1119;
+    public static int MITHRIL_PLATEBODY = 1121;
+    public static int BLACK_PLATEBODY = 1125;
+    public static int RUNE_PLATEBODY = 1127;
+
+    public static int ANTIFIRE_POTION4 = 2452;
+    public static int ANTIFIRE_POTION3 = 2454;
+    public static int ANTIFIRE_POTION2 = 2456;
+    public static int ANTIFIRE_POTION1 = 2458;
+
+    public static int AVAS_ATTRACTOR = 10498;
+    public static int AVAS_ACCUMULATOR = 10499;
+    public static int SPADE = 952;
+    public static int MYSTERIOUS_ORB = 21261;
+    public static int ENCHANTED_SCROLL = 21259;
+    public static int FEATHER = 314;
+    public static int BLURITE_ORE = 668;
+    public static int PORTRAIT = 666;
+    public static int BLURITE_SWORD = 667;
+    public static int HAMMER = 2347;
+    public static int TOOLKIT = 1;
+    public static int CLAY = 434;
+    public static int COPPER_ORE = 436;
+    public static int IRON_ORE = 440;
+    public static int AMMO_MOULD = 4;
+
+
+    public static int SUPERANTIPOISON4 = 2448;
+    public static int SUPERANTIPOISON3 = 181;
+    public static int SUPERANTIPOISON2 = 183;
+    public static int SUPERANTIPOISON1 = 185;
+
+    public static int GAMES_NECKLACE8 = 3853;
+    public static int GAMES_NECKLACE7 = 3855;
+    public static int GAMES_NECKLACE6 = 3857;
+    public static int GAMES_NECKLACE5 = 3859;
+    public static int GAMES_NECKLACE4 = 3861;
+    public static int GAMES_NECKLACE3 = 3863;
+    public static int GAMES_NECKLACE2 = 3865;
+    public static int GAMES_NECKLACE1 = 3867;
+
+    public static int CADAVA_BERRIES = 753;
+
+    public static int POT_OF_FLOUR = 1933;
+    public static int EGG = 1944;
+    public static int FLOUR = 1946;
+    public static int BUCKET_OF_MILK = 1927;
+    public static int PURE_ESSENCE = 7936;
+    public static int EARTH_TIARA = 5535;
+
+    public static int STRONG_CUP_OF_TEA = 26904;
+    public static int BUCKET_OF_WATER = 1929;
+    public static int CHISEL = 1755;
+    public static int EYE_AMULET = 26903;
+
+    public static int ORANGE_GOBLIN_MAIL = 286;
+    public static int BLUE_GOBLIN_MAIL = 287;
+    public static int GOBLIN_MAIL = 288;
+    public static int RED_DYE = 1763;
+    public static int YELLOW_DYE = 1765;
+    public static int BLUE_DYE = 1767;
+    public static int ORANGE_DYE = 1769;
+    public static int GREEN_DYE = 1771;
+    public static int PURPLE_DYE = 1773;
+
+    public static int GARLIC = 1550;
+    public static int FISHING_ROD = 307;
+    public static int RED_VINE_WORM = 25;
+    public static int SWAMP_PASTE = 1941;
+    public static int BUCKET = 1925;
+
+
+    public static int RAW_SALMON = 331;
+    public static int RAW_TROUT = 335;
+    public static int RAW_SHRIMPS = 317;
+    public static int RAW_ANCHOVIES = 321;
+
+
+    public static int ENCHANTED_BEEF = 522;
+    public static int ENCHANTED_RAT = 523;
+    public static int ENCHANTED_BEAR = 524;
+    public static int ENCHANTED_CHICKEN = 525;
+
+    public static int RAW_BEEF = 2132;
+    public static int RAW_RAT_MEAT = 2134;
+    public static int RAW_BEAR_MEAT = 2136;
+    public static int RAW_CHICKEN = 2138;
+    public static int PRESSURE_GAUGE = 271;
+    public static int FISH_FOOD = 272;
+    public static int POISON = 273;
+    public static int POISONED_FISH_FOOD = 274;
+    public static int KEY = 275; // ernest the chicken eky
+    public static int RUBBER_TUBE = 276;
+    public static int OIL_CAN = 277;
+    public static int CATTLEPROD = 278;
+    public static int SHEEP_FEED = 279;
+
+    public static int BEER = 1917;
+    public static int STAKE = 1549;
+
+    public static int BALL_OF_WOOL = 1759;
+
+    public static int JUG_OF_WATER = 1937;
+    public static int LOGS = 1511;
+
+    public static int GHOSTSPEAK_AMULET = 552;
+    public static int GHOSTS_SKULL = 553;
+    public static int STEEL_PLATELEGS = 1069;
+    public static int MITHRIL_PLATELEGS = 1071;
+    public static int ADAMANT_PLATELEGS = 1073;
+    public static int BRONZE_PLATELEGS = 1075;
+    public static int BLACK_PLATELEGS = 1077;
+    public static int RUNE_PLATELEGS = 1079;
+    public static int IRON_PLATELEGS = 1067;
+
+    public static int RUNE_CHAINBODY = 1113;
+
+    public static int IRON_FULL_HELM = 1153;
+    public static int BRONZE_FULL_HELM = 1155;
+    public static int STEEL_FULL_HELM = 1157;
+    public static int MITHRIL_FULL_HELM = 1159;
+    public static int BLACK_FULL_HELM = 1165;
+
+
+    public static int BRONZE_SCIMITAR = 1321;
+    public static int IRON_SCIMITAR = 1323;
+    public static int STEEL_SCIMITAR = 1325;
+    public static int BLACK_SCIMITAR = 1327;
+    public static int MITHRIL_SCIMITAR = 1329;
+    public static int ADAMANT_SCIMITAR = 1331;
+    public static int RUNE_SCIMITAR = 1333;
+
+    public static int BRONZE_KITESHIELD = 1189;
+    public static int IRON_KITESHIELD = 1191;
+    public static int STEEL_KITESHIELD = 1193;
+    public static int BLACK_KITESHIELD = 1195;
+    public static int ADAMANT_KITESHIELD = 1199;
+
+    public static int GOLDEN_KEY = 2944;
+    public static int IRON_KEY = 2945;
+    public static int MURKY_WATER = 2953;
+    public static int BLESSED_WATER = 2954;
+    public static int ZAMORAK_STOLE = 10474;
+    public static int PURPLE_SWEETS_10476 = 10476;
+    public static int SCROLL_10485 = 10485;
+    public static int EMPTY_SACK_10486 = 10486;
+    public static int UNDEAD_CHICKEN = 10487;
+    public static int SELECTED_IRON = 10488;
+    public static int BAR_MAGNET = 10489;
+    public static int UNDEAD_TWIGS = 10490;
+    public static int BLESSED_AXE = 10491;
+    public static int RESEARCH_NOTES_10492 = 10492;
+    public static int TRANSLATED_NOTES = 10493;
+    public static int A_PATTERN = 10494;
+    public static int A_CONTAINER = 10495;
+    public static int POLISHED_BUTTONS = 10496;
+
+    public static int HOLY_SYMBOL = 1718;
+    public static int MITHRIL_AXE = 1355;
+    public static int HARD_LEATHER = 1743;
+
+    public static int POT = 1931;
+    public static int ECTOTOKEN = 4278;
+    public static int BONEMEAL = 4255;
+    public static int BUCKET_OF_SLIME = 4286;
+
+    public static int SALMON = 329;
+    public static int VIAL = 229;
+
+    public static int FLAX = 1779;
+    public static int WOOL = 1737;
+    public static int DRAGON_AXE = 6739;
+    public static int BRONZE_AXE = 1351;
+
+    public static int MAGIC_LOGS = 1513;
+    public static int YEW_LOGS = 1515;
+    public static int MAPLE_LOGS = 1517;
+    public static int WILLOW_LOGS = 1519;
+    public static int OAK_LOGS = 1521;
+    public static int REDWOOD_LOGS = 19669;
+
+
+    public static int MONKS_ROBE = 542;
+    public static int MONKS_ROBE_TOP = 544;
+    public static int GUTHIX_CLOAK = 10448;
+    public static int BLACK_MASK = 8921;
+    public static int CANNON_BASE = 6;
+    public static int CANNON_STAND = 8;
+    public static int CANNON_BARRELS = 10;
+    public static int CANNON_FURNACE = 12;
+
+    public static int EARMUFFS = 4166;
+    public static int CANDLE_LANTERN = 4529;
+    public static int CANDLE_LANTERN_4531 = 4531;
+    public static int SPINY_HELMET = 4551;
+    public static int ENCHANTED_GEM = 4155;
+    public static int LIT_CANDLE = 33;
+    public static int MIND_RUNE = 558;
+    public static int CANDLE = 36;
+
+    public static int ROPE = 954;
+    public static int TINDERBOX = 590;
+
+    public static int SHANTAY_PASS = 1854;
+
+    public static int GUTHANS_HELM = 4724;
+    public static int GUTHANS_WARSPEAR = 4726;
+    public static int GUTHANS_PLATEBODY = 4728;
+    public static int GUTHANS_CHAINSKIRT = 4730;
+
+    public static int GUTHANS_HELM_100 = 4904;
+    public static int GUTHANS_HELM_75 = 4905;
+    public static int GUTHANS_HELM_50 = 4906;
+    public static int GUTHANS_HELM_25 = 4907;
+    public static int GUTHANS_HELM_0 = 4908;
+    public static int GUTHANS_WARSPEAR_100 = 4910;
+    public static int GUTHANS_WARSPEAR_75 = 4911;
+    public static int GUTHANS_WARSPEAR_50 = 4912;
+    public static int GUTHANS_WARSPEAR_25 = 4913;
+    public static int GUTHANS_WARSPEAR_0 = 4914;
+    public static int GUTHANS_PLATEBODY_100 = 4916;
+    public static int GUTHANS_PLATEBODY_75 = 4917;
+    public static int GUTHANS_PLATEBODY_50 = 4918;
+    public static int GUTHANS_PLATEBODY_25 = 4919;
+    public static int GUTHANS_PLATEBODY_0 = 4920;
+    public static int GUTHANS_CHAINSKIRT_100 = 4922;
+    public static int GUTHANS_CHAINSKIRT_75 = 4923;
+    public static int GUTHANS_CHAINSKIRT_50 = 4924;
+    public static int GUTHANS_CHAINSKIRT_25 = 4925;
+    public static int GUTHANS_CHAINSKIRT_0 = 4926;
+
+    public static int GRANITE_MAUL = 4153;
+    public static int MYSTIC_ROBE_TOP = 4091;
+    public static int ADAMANT_BOOTS = 4129;
+
+    public static int GOLD_ORE = 444;
+    public static int GOLD_BAR = 2357;
+    public static int MITHRIL_BAR = 2359;
+    public static int RUNITE_ORE = 451;
+
+    public static int MYSTIC_ROBE_TOP_DARK = 4101;
+    public static int MYSTIC_ROBE_BOTTOM_DARK = 4103;
+
+    public static int TORMENTED_BRACELET = 19544;
+    public static int NECKLACE_OF_ANGUISH = 19547;
+    public static int RING_OF_SUFFERING = 19550;
+    public static int AMULET_OF_TORTURE = 19553;
+
+    public static int TEACHER_WAND = 6912;
+    public static int MASTER_WAND = 6914;
+    public static int INFINITY_TOP = 6916;
+    public static int INFINITY_HAT = 6918;
+    public static int INFINITY_BOOTS = 6920;
+    public static int INFINITY_GLOVES = 6922;
+    public static int INFINITY_BOTTOMS = 6924;
+
+    public static int ARMADYL_HELMET = 11826;
+    public static int ARMADYL_CHESTPLATE = 11828;
+    public static int ARMADYL_CHAINSKIRT = 11830;
+    public static int BANDOS_CHESTPLATE = 11832;
+    public static int BANDOS_TASSETS = 11834;
+    public static int BANDOS_BOOTS = 11836;
+
+    public static int ARMADYL_COIF = 12512;
+
+    public static int ARMADYL_BRACERS = 12506;
+    public static int ARMADYL_DHIDE_BODY = 12508;
+    public static int ARMADYL_CHAPS = 12510;
+    public static int ANCESTRAL_HAT = 21018;
+    public static int ANCESTRAL_ROBE_TOP = 21021;
+    public static int ANCESTRAL_ROBE_BOTTOM = 21024;
+
+    public static int HOLY_BLESSING = 20220;
+    public static int UNHOLY_BLESSING = 20223;
+    public static int PEACEFUL_BLESSING = 20226;
+    public static int HONOURABLE_BLESSING = 20229;
+    public static int ANCIENT_BLESSING = 20235;
+    public static int TWISTED_BOW = 20997;
+    public static int TWISTED_BUCKLER = 21000;
+    public static int KODAI_WAND = 21006;
+    public static int ETERNAL_BOOTS = 13235;
+    public static int PEGASIAN_BOOTS = 13237;
+    public static int RANGER_GLOVES = 19994;
+    public static int RANGER_BOOTS = 2577;
+    public static int WIZARD_BOOTS = 2579;
+
+    public static int SANGUINESTI_STAFF = 22323;
+    public static int SANGUINESTI_STAFF_UNCHARGED = 22481;
+
+    public static int BLOODBARK_BODY = 25404;
+    public static int BLOODBARK_GAUNTLETS = 25407;
+    public static int BLOODBARK_BOOTS = 25410;
+    public static int BLOODBARK_HELM = 25413;
+    public static int BLOODBARK_LEGS = 25416;
+
+    public static int TIN_ORE = 438;
+    public static int MITHRIL_ORE = 447;
+    public static int COAL = 453;
+    public static int COAL_BAG_12019 = 12019;
+    public static int OPEN_COAL_BAG = 24480;
+
+
+    public static int MAGIC_FANG = 12932;
+    public static int UNCUT_ONYX = 6571;
+    public static int BATTLESTAFF = 1391;
+    public static int DRAGON_HALBERD = 3204;
+    public static int TOADFLAX = 2998;
+    public static int SNAPDRAGON = 3000;
+    public static int DWARF_WEED = 267;
+    public static int TORSTOL = 269;
+
+    public static int APPLE_TREE_SEED = 5283;
+    public static int BANANA_TREE_SEED = 5284;
+    public static int ORANGE_TREE_SEED = 5285;
+    public static int CURRY_TREE_SEED = 5286;
+    public static int PINEAPPLE_SEED = 5287;
+    public static int PAPAYA_TREE_SEED = 5288;
+    public static int PALM_TREE_SEED = 5289;
+    public static int CALQUAT_TREE_SEED = 5290;
+    public static int GUAM_SEED = 5291;
+    public static int MARRENTILL_SEED = 5292;
+    public static int TARROMIN_SEED = 5293;
+    public static int HARRALANDER_SEED = 5294;
+    public static int RANARR_SEED = 5295;
+    public static int TOADFLAX_SEED = 5296;
+    public static int MAGIC_SEED = 5316;
+
+    public static int IRIT_SEED = 5297;
+    public static int AVANTOE_SEED = 5298;
+    public static int KWUARM_SEED = 5299;
+    public static int SNAPDRAGON_SEED = 5300;
+    public static int CADANTINE_SEED = 5301;
+    public static int LANTADYME_SEED = 5302;
+    public static int DWARF_WEED_SEED = 5303;
+
+    public static int SNAKESKIN = 6289;
+    public static int MAHOGANY_LOGS = 6332;
+
+    public static int ANTIDOTE4_5952 = 5952; // pp i think?
+    public static int ANTIDOTE3_5954 = 5954;
+    public static int ANTIDOTE2_5956 = 5956;
+    public static int ANTIDOTE1_5958 = 5958;
+
+    public static int ANTIDOTE4 = 5943;
+    public static int ANTIDOTE3 = 5945;
+    public static int ANTIDOTE2 = 5947;
+    public static int ANTIDOTE1 = 5949;
+
+
+    public static int COCONUT = 5974;
+
+    public static int MAGIC_POTION4 = 3040;
+    public static int MAGIC_POTION3 = 3042;
+    public static int MAGIC_POTION2 = 3044;
+    public static int MAGIC_POTION1 = 3046;
+    public static int MARK_OF_GRACE = 11849;
+
+    public static int ELVEN_SIGNET = 23943;
+    public static int ETERNAL_TELEPORT_CRYSTAL = 23946;
+    public static int ELVEN_DAWN = 23948;
+    public static int ENHANCED_CRYSTAL_KEY = 23951;
+    public static int CRYSTAL_TOOL_SEED = 23953;
+    public static int CRYSTAL_ARMOUR_SEED = 23956;
+    public static int ENHANCED_CRYSTAL_TELEPORT_SEED = 23959;
+
+    public static int CRYSTAL_SHARD = 23962;
+    public static int CRYSTAL_DUST_23964 = 23964;
+
+    public static int CRYSTAL_HELM = 23971;
+    public static int CRYSTAL_HELM_INACTIVE = 23973;
+
+    public static int CRYSTAL_BODY = 23975;
+    public static int CRYSTAL_BODY_INACTIVE = 23977;
+
+    public static int CRYSTAL_LEGS = 23979;
+    public static int CRYSTAL_LEGS_INACTIVE = 23981;
+
+
+    public static int CRYSTAL_BOW = 23983;
+    public static int CRYSTAL_BOW_INACTIVE = 23985;
+    public static int CRYSTAL_HALBERD = 23987;
+    public static int CRYSTAL_HALBERD_INACTIVE = 23989;
+    public static int CRYSTAL_SHIELD = 23991;
+    public static int CRYSTAL_SHIELD_INACTIVE = 23993;
+    public static int BLADE_OF_SAELDOR = 23995;
+    public static int BLADE_OF_SAELDOR_INACTIVE = 23997;
+
+    public static int DRAGON_CHAINBODY = 3140;
+    public static int DRAGON_PLATELEGS = 4087;
+    public static int LEAFBLADED_SWORD = 11902;
+
+    public static int STRENGTH_POTION4 = 113;
+    public static int STRENGTH_POTION3 = 115;
+    public static int STRENGTH_POTION2 = 117;
+    public static int STRENGTH_POTION1 = 119;
+
+    // book pages for the between a rock quest
+    public static int BOOK_PAGE_1 = 4569;
+    public static int BOOK_PAGE_2 = 4570;
+    public static int BOOK_PAGE_3 = 4571;
+
+    public static int PAGES = 4572;
+    public static int PAGES_4573 = 4573;
+    public static int BASE_SCHEMATICS = 4574;
+    public static int SCHEMATIC = 4575;
+    public static int SCHEMATICS = 4576;
+    public static int SCHEMATICS_4577 = 4577;
+    public static int SCHEMATIC_4578 = 4578;
+    public static int DWARVEN_LORE = 4568;
+    public static int GOLD_CANNON_BALL = 4579;
+    public static int RUNE_DAGGER_PP = 5678;
+    public static int AVIAN_HEAD = 13505;
+
+    public static int RING_OF_WEALTH = 2572;
+    public static int ANTI_POSION_3 = 175;
+    public static int RUNITE_LIMBS = 9431;
+    public static int UNCUT_SAPPHIRE = 1623;
+    public static int UNCUT_EMERALD = 1621;
+
+    public static int BLIGHTED_MANTA_RAY = 24589;
+    public static int BLIGHTED_ANGLERFISH = 24592;
+    public static int BLIGHTED_KARAMBWAN = 24595;
+    public static int BLIGHTED_SUPER_RESTORE4 = 24598;
+    public static int BLIGHTED_SUPER_RESTORE3 = 24601;
+    public static int BLIGHTED_SUPER_RESTORE2 = 24603;
+    public static int BLIGHTED_SUPER_RESTORE1 = 24605;
+    public static int BLIGHTED_ANCIENT_ICE_SACK = 24607;
+    public static int BLIGHTED_ENTANGLE_SACK = 24613;
+    public static int BLIGHTED_TELEPORT_SPELL_SACK = 24615;
+    public static int BRONZE_BAR = 2349;
+    public static int SILVER_BAR = 2355;
+
+    public static int VIGGORAS_CHAINMACE_U = 22542;
+    public static int VIGGORAS_CHAINMACE = 22545;
+    public static int CRAWS_BOW_U = 22547;
+    public static int CRAWS_BOW = 22550;
+    public static int WEBWEAVER_BOW_U = 27652;
+    public static int WEBWEAVER_BOW = 27655;
+    public static int URSINE_CHAINMACE_U = 27657;
+    public static int URSINE_CHAINMACE = 27660;
+
+    public static int DRAGON_2H_SWORD = 7158;
+    public static int DRAGON_PICKAXE = 11920;
+    public static int CLAWS_OF_CALLISTO = 27667;
+    public static int FANGS_OF_VENENATIS = 27670;
+    public static int SKULL_OF_VETION = 27673;
+    public static int VOIDWAKER_HILT = 27681;
+    public static int VOIDWAKER_BLADE = 27684;
+    public static int VOIDWAKER_GEM = 27687;
+    public static int VOIDWAKER = 27690;
+    public static int RING_OF_THE_GODS = 12601;
+    public static int TYRANNICAL_RING = 12603;
+    public static int TREASONOUS_RING = 12605;
+    public static int RAW_DARK_CRAB = 11934;
+    public static int DARK_CRAB = 11936;
+    public static int SUPER_RESTORE4 = 3024;
+    public static int SUPER_RESTORE3 = 3026;
+    public static int SUPER_RESTORE2 = 3028;
+    public static int SUPER_RESTORE1 = 3030;
+    public static int LIMPWURT_ROOT = 225;
+    public static int UNCUT_DRAGONSTONE = 1631;
+
+    public static int GRIMY_SNAPDRAGON = 3051;
+    public static int UNICORN_HORN = 237;
+    public static int SUPERCOMPOST = 6034;
+    public static int ADAMANT_DART = 810;
+
+    public static int BAGGED_PLANT_1 = 8431;
+
+    public static int WATERING_CAN = 5331;
+    public static int WATERING_CAN1 = 5333;
+    public static int WATERING_CAN2 = 5334;
+    public static int WATERING_CAN3 = 5335;
+    public static int WATERING_CAN4 = 5336;
+    public static int WATERING_CAN5 = 5337;
+    public static int WATERING_CAN6 = 5338;
+    public static int WATERING_CAN7 = 5339;
+    public static int WATERING_CAN8 = 5340;
+
+    public static int BRONZE_DART_TIP = 819;
+    public static int IRON_DART_TIP = 820;
+    public static int STEEL_DART_TIP = 821;
+    public static int MITHRIL_DART_TIP = 822;
+    public static int ADAMANT_DART_TIP = 823;
+    public static int RUNE_DART_TIP = 824;
+    public static int SEED_DIBBER = 5343;
+    public static int GOLOVANOVA_SEED = 13423;
+    public static int BOLOGANO_SEED = 13424;
+    public static int LOGAVANO_SEED = 13425;
+
+    public static int BRONZE_NAILS = 4819;
+    public static int IRON_NAILS = 4820;
+    public static int BLACK_NAILS = 4821;
+    public static int MITHRIL_NAILS = 4822;
+    public static int ADAMANTITE_NAILS = 4823;
+    public static int RUNE_NAILS = 4824;
+    public static int HERB_SACK = 13226;
+
+    public static int SARADOMIN_BREW4 = 6685;
+    public static int SARADOMIN_BREW3 = 6687;
+    public static int SARADOMIN_BREW2 = 6689;
+    public static int SARADOMIN_BREW1 = 6691;
+    public static int SARACHNIS_CUDGEL = 23528;
+    public static int GOLD_HELMET = 4567;
+    public static int SANFEW_SERUM4 = 10925;
+    public static int SANFEW_SERUM3 = 10927;
+    public static int SANFEW_SERUM2 = 10929;
+    public static int SANFEW_SERUM1 = 10931;
+    public static int SUPER_COMBAT_POTION4 = 12695;
+    public static int SUPER_COMBAT_POTION3 = 12697;
+    public static int SUPER_COMBAT_POTION2 = 12699;
+    public static int SUPER_COMBAT_POTION1 = 12701;
+
+    public static int BLOOD_MOON_CHESTPLATE = 29022;
+    public static int BLOOD_MOON_TASSETS = 29025;
+    public static int BLOOD_MOON_HELM = 29028;
+    public static int BLOOD_MOON_CHESTPLATE_29043 = 29043;
+    public static int BLOOD_MOON_TASSETS_29045 = 29045;
+    public static int BLOOD_MOON_HELM_29047 = 29047;
+    public static int BLOOD_MOON_CHESTPLATE_BROKEN = 29067;
+    public static int BLOOD_MOON_TASSETS_BROKEN = 29070;
+    public static int BLOOD_MOON_HELM_BROKEN = 29073;
+    public static int BRIMSTONE_RING = 22975;
+    public static int MARIGOLD_SEED = 5096;
+    public static int ROSEMARY_SEED = 5097;
+    public static int NASTURTIUM_SEED = 5098;
+    public static int WOAD_SEED = 5099;
+    public static int LIMPWURT_SEED = 5100;
+    public static int REDBERRY_SEED = 5101;
+    public static int CADAVABERRY_SEED = 5102;
+    public static int DWELLBERRY_SEED = 5103;
+    public static int JANGERBERRY_SEED = 5104;
+    public static int WHITEBERRY_SEED = 5105;
+    public static int POISON_IVY_SEED = 5106;
+    public static int SEEDS = 5171;
+    public static int CACTUS_SEED = 5280;
+    public static int BELLADONNA_SEED = 5281;
+    public static int MUSHROOM_SPORE = 5282;
+    public static int TORSTOL_SEED = 5304;
+    public static int BARLEY_SEED = 5305;
+    public static int JUTE_SEED = 5306;
+    public static int HAMMERSTONE_SEED = 5307;
+    public static int ASGARNIAN_SEED = 5308;
+    public static int YANILLIAN_SEED = 5309;
+    public static int KRANDORIAN_SEED = 5310;
+    public static int WILDBLOOD_SEED = 5311;
+    public static int ACORN = 5312;
+    public static int WILLOW_SEED = 5313;
+    public static int MAPLE_SEED = 5314;
+    public static int YEW_SEED = 5315;
+    public static int SPIRIT_SEED = 5317;
+    public static int POTATO_SEED = 5318;
+    public static int ONION_SEED = 5319;
+    public static int SWEETCORN_SEED = 5320;
+    public static int WATERMELON_SEED = 5321;
+    public static int TOMATO_SEED = 5322;
+    public static int STRAWBERRY_SEED = 5323;
+    public static int CABBAGE_SEED = 5324;
+    public static int SNAPE_GRASS_SEED = 22879;
+    public static int ATTAS_SEED = 22881;
+    public static int IASOR_SEED = 22883;
+    public static int KRONOS_SEED = 22885;
+    public static int WHITE_LILY_SEED = 22887;
+
+    public static int DRAGON_PLATESKIRT = 4585;
+    public static int DRAGON_SCIMITAR = 4587;
+    public static int MITHRIL_WARHAMMER = 1343;
+    public static int ADAMANT_WARHAMMER = 1345;
+    public static int RUNE_WARHAMMER = 1347;
+    public static int XERICIAN_HAT = 13385;
+    public static int XERICIAN_TOP = 13387;
+    public static int XERICIAN_ROBE = 13389;
+
+    public static int STONE_BALL_RED = 3109;
+    public static int STONE_BALL_BLUE = 3110;
+    public static int STONE_BALL_PINK = 3111;
+    public static int STONE_BALL_GREEN = 3112;
+    public static int STONE_BALL_YELLOW = 3113;
+    public static int MYSTIC_ROBE_TOP_LIGHT = 4111;
+    public static int MYSTIC_ROBE_BOTTOM_LIGHT = 4113;
+
+    public static int IRON_KNIFE = 863;
+    public static int BRONZE_KNIFE = 864;
+    public static int STEEL_KNIFE = 865;
+    public static int MITHRIL_KNIFE = 866;
+    public static int ADAMANT_KNIFE = 867;
+    public static int WATER_RUNE = 555;
+    public static int EARTH_RUNE = 557;
+    public static int BODY_RUNE = 559;
+    public static int SOUL_RUNE = 566;
+    public static int SOFT_CLAY = 1761;
+    public static int ARDOUGNE_TELEPORT = 8011;
+    public static int WATCHTOWER_TELEPORT = 8012;
+    public static int WRATH_RUNE = 21880;
+    public static int RUNE_MACE = 1432;
+    public static int ZOMBIE_PIRATE_KEY = 29449;
+    public static int TELEPORT_ANCHORING_SCROLL = 29455;
+    public static int ADAMANT_SEEDS = 29458;
+    public static int ADAMANT_ARROW = 890;
+
+    public static int LONGBOW_U = 48;
+    public static int SHORTBOW_U = 50;
+    public static int ARROW_SHAFT = 52;
+    public static int HEADLESS_ARROW = 53;
+    public static int OAK_SHORTBOW_U = 54;
+    public static int OAK_LONGBOW_U = 56;
+    public static int WILLOW_LONGBOW_U = 58;
+    public static int WILLOW_SHORTBOW_U = 60;
+    public static int MAPLE_LONGBOW_U = 62;
+    public static int MAPLE_SHORTBOW_U = 64;
+    public static int YEW_LONGBOW_U = 66;
+    public static int YEW_SHORTBOW_U = 68;
+    public static int MAGIC_LONGBOW_U = 70;
+    public static int MAGIC_SHORTBOW_U = 72;
+    public static int LONGBOW = 839;
+    public static int ANTIPOISON4 = 2446;
+    public static int ANTIPOISON3 = 175;
+    public static int ANTIPOISON2 = 177;
+    public static int ANTIPOISON1 = 179;
+
+    public static int ANCIENT_DHIDE_BOOTS = 19921;
+    public static int SARADOMIN_DHIDE_BOOTS = 19933;
+    public static int ZAMORAK_DHIDE_BOOTS = 19936;
+
+    public static int SARADOMIN_BRACERS = 10384;
+    public static int SARADOMIN_DHIDE_BODY = 10386;
+    public static int SARADOMIN_CHAPS = 10388;
+    public static int SARADOMIN_COIF = 10390;
+
+    public static int ZAMORAK_BRACERS = 10368;
+    public static int ZAMORAK_DHIDE_BODY = 10370;
+    public static int ZAMORAK_CHAPS = 10372;
+    public static int ZAMORAK_COIF = 10374;
+    public static int GUTHIX_BRACERS = 10376;
+    public static int GUTHIX_DHIDE_BODY = 10378;
+    public static int GUTHIX_CHAPS = 10380;
+    public static int GUTHIX_COIF = 10382;
+
+    public static int ARMADYL_CROSSBOW = 11785;
+    public static int STEAM_BATTLESTAFF = 11787;
+    public static int MYSTIC_STEAM_STAFF = 11789;
+    public static int STAFF_OF_THE_DEAD = 11791;
+    public static int AGILITY_JUMP_11793 = 11793;
+    public static int GODSWORD_SHARDS_1__2 = 11794;
+    public static int GODSWORD_SHARDS_1__3 = 11796;
+    public static int GODSWORD_BLADE = 11798;
+    public static int GODSWORD_SHARDS_2__3 = 11800;
+    public static int ARMADYL_HILT = 11810;
+    public static int BANDOS_HILT = 11812;
+    public static int SARADOMIN_HILT = 11814;
+    public static int ZAMORAK_HILT = 11816;
+    public static int GODSWORD_SHARD_1 = 11818;
+    public static int GODSWORD_SHARD_2 = 11820;
+    public static int GODSWORD_SHARD_3 = 11822;
+    public static int ZAMORAKIAN_SPEAR = 11824;
+    public static int SARADOMIN_SWORD = 11838;
+    public static int DINHS_BULWARK = 21015;
+    public static int OVERLOAD_4 = 11730;
+    public static int OVERLOAD_3 = 11731;
+    public static int OVERLOAD_2 = 11732;
+    public static int OVERLOAD_1 = 11733;
+    public static int ABSORPTION_4 = 11734;
+    public static int ABSORPTION_3 = 11735;
+    public static int ABSORPTION_2 = 11736;
+    public static int ABSORPTION_1 = 11737;
+    public static int HERB_BOX = 11738;
+    public static int OPEN_HERB_BOX = 11739;
+    public static int SCROLL_OF_REDIRECTION = 11740;
+    public static int RIMMINGTON_TELEPORT = 11741;
+    public static int TAVERLEY_TELEPORT = 11742;
+    public static int POLLNIVNEACH_TELEPORT = 11743;
+    public static int RELLEKKA_TELEPORT = 11744;
+    public static int BRIMHAVEN_TELEPORT = 11745;
+    public static int YANILLE_TELEPORT = 11746;
+    public static int TROLLHEIM_TELEPORT = 11747;
+    public static int SARDINE = 325;
+    public static int RAW_SARDINE = 327;
+    public static int CHILLI_POTATO = 7054;
+
+    // MTA alchemy versions of items that have lower alch values
+    public static int CAKE_OF_GUIDANCE = 7542;
+    public static int LEATHER_BOOTS_6893 = 6893;
+    public static int ADAMANT_KITESHIELD_6894 = 6894;
+    public static int ADAMANT_MED_HELM_6895 = 6895;
+    public static int EMERALD_6896 = 6896;
+    public static int RUNE_LONGSWORD_6897 = 6897;
+    public static int MUD_BATTLESTAFF = 6562;
+    public static int ASTRAL_RUNE = 9075;
+
+
+    // MTA bones
+    public static int ANIMALS_BONES = 6904;
+    public static int ANIMALS_BONES_6905 = 6905;
+    public static int ANIMALS_BONES_6906 = 6906;
+    public static int ANIMALS_BONES_6907 = 6907;
+    public static int SKILLS_NECKLACE = 11113;
+
+    public static int ROGUES_EQUIPMENT_CRATE = 21307;
+    public static int ROGUE_TOP = 5553;
+    public static int ROGUE_MASK = 5554;
+    public static int ROGUE_TROUSERS = 5555;
+    public static int ROGUE_GLOVES = 5556;
+    public static int ROGUE_BOOTS = 5557;
+    public static int ROGUE_KIT = 5558;
+    public static int MAGES_BOOK = 6889;
+    public static int GUAM_POTION_UNF = 91;
+    public static int MARRENTILL_POTION_UNF = 93;
+    public static int TARROMIN_POTION_UNF = 95;
+    public static int HARRALANDER_POTION_UNF = 97;
+    public static int IRIT_POTION_UNF = 101;
+    public static int AVANTOE_POTION_UNF = 103;
+    public static int KWUARM_POTION_UNF = 105;
+    public static int CADANTINE_POTION_UNF = 107;
+    public static int DWARF_WEED_POTION_UNF = 109;
+    public static int TORSTOL_POTION_UNF = 111;
+    public static int PINK_HAT = 656;
+    public static int GREEN_HAT = 658;
+    public static int BLUE_HAT = 660;
+    public static int CREAM_HAT = 662;
+    public static int STEEL_PICKAXE = 1269;
+    public static int IRON_PICKAXE = 1267;
+    public static int BROWN_APRON = 1757;
+    public static int MITHRIL_MED_HELM = 1143;
+    public static int LEATHER_BOOTS = 1061;
+    public static int GREEN_DHIDE_BODY = 1135;
+    public static int BRONZE_SQ_SHIELD = 1173;
+    public static int IRON_SQ_SHIELD = 1175;
+    public static int STEEL_SQ_SHIELD = 1177;
+    public static int BLACK_SQ_SHIELD = 1179;
+    public static int MITHRIL_SQ_SHIELD = 1181;
+    public static int ADAMANT_SQ_SHIELD = 1183;
+
+
+    public static int BRONZE_HALBERD = 3190;
+    public static int IRON_HALBERD = 3192;
+    public static int STEEL_HALBERD = 3194;
+    public static int BLACK_HALBERD = 3196;
+    public static int MITHRIL_HALBERD = 3198;
+    public static int ADAMANT_HALBERD = 3200;
+    public static int RUNE_HALBERD = 3202;
+    public static int DIAMOND_RING = 1643;
+    public static int IRON_WARHAMMER = 1335;
+    public static int BRONZE_WARHAMMER = 1337;
+    public static int STEEL_WARHAMMER = 1339;
+    public static int BLACK_WARHAMMER = 1341;
+    public static int BRONZE_BOOTS = 4119;
+    public static int IRON_BOOTS = 4121;
+    public static int STEEL_BOOTS = 4123;
+    public static int BLACK_BOOTS = 4125;
+    public static int MITHRIL_BOOTS = 4127;
+    public static int RING_OF_LIFE = 2570;
+
+    public static int PINK_BOOTS = 626;
+    public static int GREEN_BOOTS = 628;
+    public static int BLUE_BOOTS = 630;
+    public static int CREAM_BOOTS = 632;
+    public static int HARDLEATHER_BODY = 1131;
+    public static int SILVER_SICKLE = 2961;
+    public static int STUDDED_BODY = 1133;
+    public static int BONE_DAGGER = 8872;
+    public static int SAPPHIRE_AMULET = 1694;
+    public static int EMERALD_AMULET = 1696;
+    public static int AMULET_OF_POWER = 1731;
+
+    public static int BRONZE_2H_SWORD = 1307;
+    public static int IRON_2H_SWORD = 1309;
+    public static int STEEL_2H_SWORD = 1311;
+    public static int BLACK_2H_SWORD = 1313;
+    public static int MITHRIL_2H_SWORD = 1315;
+    public static int PINK_ROBE_TOP = 636;
+    public static int GREEN_ROBE_TOP = 638;
+    public static int BLUE_ROBE_TOP = 640;
+    public static int CREAM_ROBE_TOP = 642;
+    public static int BRONZE_MED_HELM = 1139;
+    public static int STEEL_MED_HELM = 1141;
+    public static int ADAMANT_MED_HELM = 1145;
+    public static int STEEL_LONGSWORD = 1295;
+    public static int BRONZE_LONGSWORD = 1291;
+    public static int IRON_LONGSWORD = 1293;
+    public static int BLACK_LONGSWORD = 1297;
+    public static int MITHRIL_LONGSWORD = 1299;
+    public static int ADAMANT_LONGSWORD = 1301;
+    public static int MYSTIC_GLOVES = 4095;
+    public static int BLUE_WIZARD_ROBE = 577;
+    public static int BLUE_WIZARD_HAT = 579;
+    public static int BLACK_ROBE = 581;
+    public static int BAILING_BUCKET = 583;
+
+    public static int KARAMJA_GLOVES = 1686;
+    public static int GOLD_AMULET = 1692;
+    public static int RUBY_AMULET = 1698;
+    public static int DIAMOND_AMULET = 1700;
+    public static int DRAGONSTONE_AMULET = 1702;
+    public static int IRON_MED_HELM = 1137;
+
+    public static int PURPLE_BOOTS = 2934;
+    public static int PURPLE_ROBE_TOP = 2936;
+    public static int PURPLE_ROBE_BOTTOMS = 2938;
+    public static int PURPLE_HAT = 2940;
+    public static int PURPLE_GLOVES = 2942;
+
+    public static int IRON_CHAINBODY = 1101;
+    public static int BRONZE_CHAINBODY = 1103;
+    public static int STEEL_CHAINBODY = 1105;
+    public static int BLACK_CHAINBODY = 1107;
+    public static int MITHRIL_CHAINBODY = 1109;
+    public static int ADAMANT_CHAINBODY = 1111;
+    public static int BRONZE_DAGGER = 1205;
+    public static int STEEL_DAGGER = 1207;
+    public static int MITHRIL_DAGGER = 1209;
+    public static int ADAMANT_DAGGER = 1211;
+    public static int BLACK_DAGGER = 1217;
+    public static int BLUE_DHIDE_VAMBRACES = 2487;
+    public static int RED_DHIDE_VAMBRACES = 2489;
+    public static int BLACK_DHIDE_VAMBRACES = 2491;
+    public static int POINTED_BRUISE_BLUE_SNELM = 3343;
+
+    // clue scroll IDs for things like MapScrolls.
+    public static int CLUE_SCROLL_EASY = 2677;
+    public static int CLUE_SCROLL_EASY_2678 = 2678;
+    public static int CLUE_SCROLL_EASY_2679 = 2679;
+    public static int CLUE_SCROLL_EASY_2680 = 2680;
+    public static int CLUE_SCROLL_EASY_2681 = 2681;
+    public static int CLUE_SCROLL_EASY_2682 = 2682;
+    public static int CLUE_SCROLL_EASY_2683 = 2683;
+    public static int CLUE_SCROLL_EASY_2684 = 2684;
+    public static int CLUE_SCROLL_EASY_2685 = 2685;
+    public static int CLUE_SCROLL_EASY_2686 = 2686;
+    public static int CLUE_SCROLL_EASY_2687 = 2687;
+    public static int CLUE_SCROLL_EASY_2688 = 2688;
+    public static int CLUE_SCROLL_EASY_2689 = 2689;
+    public static int CLUE_SCROLL_EASY_2690 = 2690;
+    public static int CLUE_SCROLL_EASY_2691 = 2691;
+    public static int CLUE_SCROLL_EASY_2692 = 2692;
+    public static int CLUE_SCROLL_EASY_2693 = 2693;
+    public static int CLUE_SCROLL_EASY_2694 = 2694;
+    public static int CLUE_SCROLL_EASY_2695 = 2695;
+    public static int CLUE_SCROLL_EASY_2696 = 2696;
+    public static int CLUE_SCROLL_EASY_2697 = 2697;
+    public static int CLUE_SCROLL_EASY_2698 = 2698;
+    public static int CLUE_SCROLL_EASY_2699 = 2699;
+    public static int CLUE_SCROLL_EASY_2700 = 2700;
+    public static int CLUE_SCROLL_EASY_2701 = 2701;
+    public static int CLUE_SCROLL_EASY_2702 = 2702;
+    public static int CLUE_SCROLL_EASY_2703 = 2703;
+    public static int CLUE_SCROLL_EASY_2704 = 2704;
+    public static int CLUE_SCROLL_EASY_2705 = 2705;
+    public static int CLUE_SCROLL_EASY_2706 = 2706;
+    public static int CLUE_SCROLL_EASY_2707 = 2707;
+    public static int CLUE_SCROLL_EASY_2708 = 2708;
+    public static int CLUE_SCROLL_EASY_2709 = 2709;
+    public static int CLUE_SCROLL_EASY_2710 = 2710;
+    public static int CLUE_SCROLL_EASY_2711 = 2711;
+    public static int CLUE_SCROLL_EASY_2712 = 2712;
+    public static int CLUE_SCROLL_EASY_2713 = 2713;
+    public static int CASKET_EASY = 2714;
+    public static int CASKET_EASY_2715 = 2715;
+    public static int CLUE_SCROLL_EASY_2716 = 2716;
+    public static int CASKET_EASY_2717 = 2717;
+    public static int CASKET_EASY_2718 = 2718;
+    public static int CLUE_SCROLL_EASY_2719 = 2719;
+    public static int CASKET_EASY_2720 = 2720;
+    public static int CASKET_EASY_2721 = 2721;
+    public static int CLUE_SCROLL_HARD = 2722;
+    public static int CLUE_SCROLL_HARD_2723 = 2723;
+    public static int CASKET_HARD = 2724;
+    public static int CLUE_SCROLL_HARD_2725 = 2725;
+    public static int CASKET_HARD_2726 = 2726;
+    public static int CLUE_SCROLL_HARD_2727 = 2727;
+    public static int CASKET_HARD_2728 = 2728;
+    public static int CLUE_SCROLL_HARD_2729 = 2729;
+    public static int CASKET_HARD_2730 = 2730;
+    public static int CLUE_SCROLL_HARD_2731 = 2731;
+    public static int CASKET_HARD_2732 = 2732;
+    public static int CLUE_SCROLL_HARD_2733 = 2733;
+    public static int CASKET_HARD_2734 = 2734;
+    public static int CLUE_SCROLL_HARD_2735 = 2735;
+    public static int CASKET_HARD_2736 = 2736;
+    public static int CLUE_SCROLL_HARD_2737 = 2737;
+    public static int CASKET_HARD_2738 = 2738;
+    public static int CLUE_SCROLL_HARD_2739 = 2739;
+    public static int CASKET_HARD_2740 = 2740;
+    public static int CLUE_SCROLL_HARD_2741 = 2741;
+    public static int CASKET_HARD_2742 = 2742;
+    public static int CLUE_SCROLL_HARD_2743 = 2743;
+    public static int CASKET_HARD_2744 = 2744;
+    public static int CLUE_SCROLL_HARD_2745 = 2745;
+    public static int CASKET_HARD_2746 = 2746;
+    public static int CLUE_SCROLL_HARD_2747 = 2747;
+    public static int CASKET_HARD_2748 = 2748;
+    public static int CLUE_SCROLL_HARD_2773 = 2773;
+    public static int CLUE_SCROLL_HARD_2774 = 2774;
+    public static int CASKET_HARD_2775 = 2775;
+    public static int CLUE_SCROLL_HARD_2776 = 2776;
+    public static int CASKET_HARD_2777 = 2777;
+    public static int CLUE_SCROLL_HARD_2778 = 2778;
+    public static int CASKET_HARD_2779 = 2779;
+    public static int CLUE_SCROLL_HARD_2780 = 2780;
+    public static int CASKET_HARD_2781 = 2781;
+    public static int CLUE_SCROLL_HARD_2782 = 2782;
+    public static int CLUE_SCROLL_HARD_2783 = 2783;
+    public static int CASKET_HARD_2784 = 2784;
+    public static int CLUE_SCROLL_HARD_2785 = 2785;
+    public static int CLUE_SCROLL_HARD_2786 = 2786;
+    public static int CASKET_HARD_2787 = 2787;
+    public static int CLUE_SCROLL_HARD_2788 = 2788;
+    public static int CASKET_HARD_2789 = 2789;
+    public static int CLUE_SCROLL_HARD_2790 = 2790;
+    public static int CASKET_HARD_2791 = 2791;
+    public static int CLUE_SCROLL_HARD_2792 = 2792;
+    public static int CLUE_SCROLL_HARD_2793 = 2793;
+    public static int CLUE_SCROLL_HARD_2794 = 2794;
+    public static int PUZZLE_BOX_HARD = 2795;
+    public static int CLUE_SCROLL_HARD_2796 = 2796;
+    public static int CLUE_SCROLL_HARD_2797 = 2797;
+    public static int PUZZLE_BOX_HARD_2798 = 2798;
+    public static int CLUE_SCROLL_HARD_2799 = 2799;
+    public static int PUZZLE_BOX_HARD_2800 = 2800;
+    public static int CLUE_SCROLL_MEDIUM = 2801;
+    public static int CASKET_MEDIUM = 2802;
+    public static int CLUE_SCROLL_MEDIUM_2803 = 2803;
+    public static int CASKET_MEDIUM_2804 = 2804;
+    public static int CLUE_SCROLL_MEDIUM_2805 = 2805;
+    public static int CASKET_MEDIUM_2806 = 2806;
+    public static int CLUE_SCROLL_MEDIUM_2807 = 2807;
+    public static int CASKET_MEDIUM_2808 = 2808;
+    public static int CLUE_SCROLL_MEDIUM_2809 = 2809;
+    public static int CASKET_MEDIUM_2810 = 2810;
+    public static int CLUE_SCROLL_MEDIUM_2811 = 2811;
+    public static int CASKET_MEDIUM_2812 = 2812;
+    public static int CLUE_SCROLL_MEDIUM_2813 = 2813;
+    public static int CASKET_MEDIUM_2814 = 2814;
+    public static int CLUE_SCROLL_MEDIUM_2815 = 2815;
+    public static int CASKET_MEDIUM_2816 = 2816;
+    public static int CLUE_SCROLL_MEDIUM_2817 = 2817;
+    public static int CASKET_MEDIUM_2818 = 2818;
+    public static int CLUE_SCROLL_MEDIUM_2819 = 2819;
+    public static int CASKET_MEDIUM_2820 = 2820;
+    public static int CLUE_SCROLL_MEDIUM_2821 = 2821;
+    public static int CASKET_MEDIUM_2822 = 2822;
+    public static int CLUE_SCROLL_MEDIUM_2823 = 2823;
+    public static int CASKET_MEDIUM_2824 = 2824;
+    public static int CLUE_SCROLL_MEDIUM_2825 = 2825;
+    public static int CASKET_MEDIUM_2826 = 2826;
+    public static int CLUE_SCROLL_MEDIUM_2827 = 2827;
+    public static int CASKET_MEDIUM_2828 = 2828;
+    public static int CLUE_SCROLL_MEDIUM_2829 = 2829;
+    public static int CASKET_MEDIUM_2830 = 2830;
+    public static int CLUE_SCROLL_MEDIUM_2831 = 2831;
+    public static int KEY_MEDIUM = 2832;
+    public static int CLUE_SCROLL_MEDIUM_2833 = 2833;
+    public static int KEY_MEDIUM_2834 = 2834;
+    public static int CLUE_SCROLL_MEDIUM_2835 = 2835;
+    public static int KEY_MEDIUM_2836 = 2836;
+    public static int CLUE_SCROLL_MEDIUM_2837 = 2837;
+    public static int KEY_MEDIUM_2838 = 2838;
+    public static int CLUE_SCROLL_MEDIUM_2839 = 2839;
+    public static int KEY_MEDIUM_2840 = 2840;
+    public static int CLUE_SCROLL_MEDIUM_2841 = 2841;
+    public static int CHALLENGE_SCROLL_MEDIUM = 2842;
+    public static int CLUE_SCROLL_MEDIUM_2843 = 2843;
+    public static int CHALLENGE_SCROLL_MEDIUM_2844 = 2844;
+    public static int CLUE_SCROLL_MEDIUM_2845 = 2845;
+    public static int CHALLENGE_SCROLL_MEDIUM_2846 = 2846;
+    public static int CLUE_SCROLL_MEDIUM_2847 = 2847;
+    public static int CLUE_SCROLL_MEDIUM_2848 = 2848;
+    public static int CLUE_SCROLL_MEDIUM_2849 = 2849;
+    public static int CHALLENGE_SCROLL_MEDIUM_2850 = 2850;
+    public static int CLUE_SCROLL_MEDIUM_2851 = 2851;
+    public static int CHALLENGE_SCROLL_MEDIUM_2852 = 2852;
+    public static int CLUE_SCROLL_MEDIUM_2853 = 2853;
+    public static int CHALLENGE_SCROLL_MEDIUM_2854 = 2854;
+    public static int CLUE_SCROLL_MEDIUM_2855 = 2855;
+    public static int CLUE_SCROLL_MEDIUM_2856 = 2856;
+    public static int CLUE_SCROLL_MEDIUM_2857 = 2857;
+    public static int CLUE_SCROLL_MEDIUM_2858 = 2858;
+
+    public static int CASKET_HARD_3581 = 3581;
+    public static int CLUE_SCROLL_MEDIUM_3582 = 3582;
+    public static int CASKET_MEDIUM_3583 = 3583;
+    public static int CLUE_SCROLL_MEDIUM_3584 = 3584;
+    public static int CASKET_MEDIUM_3585 = 3585;
+    public static int CLUE_SCROLL_MEDIUM_3586 = 3586;
+    public static int CASKET_MEDIUM_3587 = 3587;
+    public static int CLUE_SCROLL_MEDIUM_3588 = 3588;
+    public static int CASKET_MEDIUM_3589 = 3589;
+    public static int CLUE_SCROLL_MEDIUM_3590 = 3590;
+    public static int CASKET_MEDIUM_3591 = 3591;
+    public static int CLUE_SCROLL_MEDIUM_3592 = 3592;
+    public static int CASKET_MEDIUM_3593 = 3593;
+    public static int CLUE_SCROLL_MEDIUM_3594 = 3594;
+    public static int CASKET_MEDIUM_3595 = 3595;
+    public static int CLUE_SCROLL_MEDIUM_3596 = 3596;
+    public static int CASKET_MEDIUM_3597 = 3597;
+    public static int CLUE_SCROLL_MEDIUM_3598 = 3598;
+    public static int CLUE_SCROLL_MEDIUM_3599 = 3599;
+    public static int CASKET_MEDIUM_3600 = 3600;
+    public static int CLUE_SCROLL_MEDIUM_3601 = 3601;
+    public static int CLUE_SCROLL_MEDIUM_3602 = 3602;
+    public static int CASKET_MEDIUM_3603 = 3603;
+    public static int CLUE_SCROLL_MEDIUM_3604 = 3604;
+    public static int CLUE_SCROLL_MEDIUM_3605 = 3605;
+    public static int KEY_MEDIUM_3606 = 3606;
+    public static int CLUE_SCROLL_MEDIUM_3607 = 3607;
+    public static int KEY_MEDIUM_3608 = 3608;
+    public static int CLUE_SCROLL_MEDIUM_3609 = 3609;
+    public static int CLUE_SCROLL_MEDIUM_3610 = 3610;
+    public static int CLUE_SCROLL_MEDIUM_3611 = 3611;
+    public static int CLUE_SCROLL_MEDIUM_3612 = 3612;
+    public static int CLUE_SCROLL_MEDIUM_3613 = 3613;
+    public static int CLUE_SCROLL_MEDIUM_3614 = 3614;
+    public static int CLUE_SCROLL_MEDIUM_3615 = 3615;
+    public static int CLUE_SCROLL_MEDIUM_3616 = 3616;
+    public static int CLUE_SCROLL_MEDIUM_3617 = 3617;
+    public static int CLUE_SCROLL_MEDIUM_3618 = 3618;
+
+    public static int CHALLENGE_SCROLL_MEDIUM_7275 = 7275;
+    public static int CLUE_SCROLL_MEDIUM_7276 = 7276;
+    public static int CHALLENGE_SCROLL_MEDIUM_7277 = 7277;
+    public static int CLUE_SCROLL_MEDIUM_7278 = 7278;
+    public static int CHALLENGE_SCROLL_MEDIUM_7279 = 7279;
+    public static int CLUE_SCROLL_MEDIUM_7280 = 7280;
+    public static int CHALLENGE_SCROLL_MEDIUM_7281 = 7281;
+    public static int CLUE_SCROLL_MEDIUM_7282 = 7282;
+    public static int CHALLENGE_SCROLL_MEDIUM_7283 = 7283;
+    public static int CLUE_SCROLL_MEDIUM_7284 = 7284;
+    public static int CHALLENGE_SCROLL_MEDIUM_7285 = 7285;
+    public static int CLUE_SCROLL_MEDIUM_7286 = 7286;
+    public static int CASKET_MEDIUM_7287 = 7287;
+    public static int CLUE_SCROLL_MEDIUM_7288 = 7288;
+    public static int CASKET_MEDIUM_7289 = 7289;
+    public static int CLUE_SCROLL_MEDIUM_7290 = 7290;
+    public static int CASKET_MEDIUM_7291 = 7291;
+    public static int CLUE_SCROLL_MEDIUM_7292 = 7292;
+    public static int CASKET_MEDIUM_7293 = 7293;
+    public static int CLUE_SCROLL_MEDIUM_7294 = 7294;
+    public static int CASKET_MEDIUM_7295 = 7295;
+    public static int CLUE_SCROLL_MEDIUM_7296 = 7296;
+    public static int KEY_MEDIUM_7297 = 7297;
+    public static int CLUE_SCROLL_MEDIUM_7298 = 7298;
+    public static int KEY_MEDIUM_7299 = 7299;
+    public static int CLUE_SCROLL_MEDIUM_7300 = 7300;
+    public static int CLUE_SCROLL_MEDIUM_7301 = 7301;
+    public static int KEY_MEDIUM_7302 = 7302;
+    public static int CLUE_SCROLL_MEDIUM_7303 = 7303;
+    public static int CLUE_SCROLL_MEDIUM_7304 = 7304;
+    public static int CLUE_SCROLL_MEDIUM_7305 = 7305;
+    public static int CASKET_MEDIUM_7306 = 7306;
+    public static int CLUE_SCROLL_MEDIUM_7307 = 7307;
+    public static int CASKET_MEDIUM_7308 = 7308;
+    public static int CLUE_SCROLL_MEDIUM_7309 = 7309;
+    public static int CASKET_MEDIUM_7310 = 7310;
+    public static int CLUE_SCROLL_MEDIUM_7311 = 7311;
+    public static int CASKET_MEDIUM_7312 = 7312;
+    public static int CLUE_SCROLL_MEDIUM_7313 = 7313;
+    public static int CASKET_MEDIUM_7314 = 7314;
+    public static int CLUE_SCROLL_MEDIUM_7315 = 7315;
+    public static int CASKET_MEDIUM_7316 = 7316;
+    public static int CLUE_SCROLL_MEDIUM_7317 = 7317;
+    public static int CASKET_MEDIUM_7318 = 7318;
+
+    public static int BUTTERFLY_NET = 10010;
+    public static int DRAGON_ARROWTIPS = 11237;
+    public static int BABY_IMPLING_JAR = 11238;
+    public static int YOUNG_IMPLING_JAR = 11240;
+    public static int GOURMET_IMPLING_JAR = 11242;
+    public static int EARTH_IMPLING_JAR = 11244;
+    public static int ESSENCE_IMPLING_JAR = 11246;
+    public static int ECLECTIC_IMPLING_JAR = 11248;
+    public static int NATURE_IMPLING_JAR = 11250;
+    public static int MAGPIE_IMPLING_JAR = 11252;
+    public static int NINJA_IMPLING_JAR = 11254;
+    public static int DRAGON_IMPLING_JAR = 11256;
+    public static int JAR_GENERATOR = 11258;
+    public static int MAGIC_BUTTERFLY_NET = 11259;
+    public static int IMPLING_JAR = 11260;
+
+    public static int SUPER_RANGING_4 = 11722;
+    public static int SUPER_RANGING_3 = 11723;
+    public static int SUPER_RANGING_2 = 11724;
+    public static int SUPER_RANGING_1 = 11725;
+    public static int NECKLACE_OF_PASSAGE5 = 21146;
+    public static int NECKLACE_OF_PASSAGE4 = 21149;
+    public static int NECKLACE_OF_PASSAGE3 = 21151;
+    public static int NECKLACE_OF_PASSAGE2 = 21153;
+    public static int NECKLACE_OF_PASSAGE1 = 21155;
+    public static int ATTACK_POTION4 = 2428;
+    public static int ATTACK_POTION3 = 121;
+    public static int ATTACK_POTION2 = 123;
+    public static int ATTACK_POTION1 = 125;
+
+    public static int RAW_BREAM = 29216;
+    public static int COOKED_BREAM = 29217;
+    public static int DHAROKS_HELM = 4716;
+    public static int DHAROKS_GREATAXE = 4718;
+    public static int DHAROKS_PLATEBODY = 4720;
+    public static int DHAROKS_PLATELEGS = 4722;
+    public static int KARILS_CROSSBOW = 4734;
+    public static int BOLT_RACK = 4740;
+    public static int TORAGS_HELM = 4745;
+    public static int TORAGS_HAMMERS = 4747;
+    public static int TORAGS_PLATEBODY = 4749;
+    public static int TORAGS_PLATELEGS = 4751;
+    public static int VERACS_HELM = 4753;
+    public static int VERACS_FLAIL = 4755;
+    public static int VERACS_BRASSARD = 4757;
+    public static int VERACS_PLATESKIRT = 4759;
+    public static int DHAROKS_HELM_100 = 4880;
+    public static int DHAROKS_HELM_75 = 4881;
+    public static int DHAROKS_HELM_50 = 4882;
+    public static int DHAROKS_HELM_25 = 4883;
+    public static int DHAROKS_HELM_0 = 4884;
+    public static int DHAROKS_GREATAXE_100 = 4886;
+    public static int DHAROKS_GREATAXE_75 = 4887;
+    public static int DHAROKS_GREATAXE_50 = 4888;
+    public static int DHAROKS_GREATAXE_25 = 4889;
+    public static int DHAROKS_GREATAXE_0 = 4890;
+    public static int DHAROKS_PLATEBODY_100 = 4892;
+    public static int DHAROKS_PLATEBODY_75 = 4893;
+    public static int DHAROKS_PLATEBODY_50 = 4894;
+    public static int DHAROKS_PLATEBODY_25 = 4895;
+    public static int DHAROKS_PLATEBODY_0 = 4896;
+    public static int DHAROKS_PLATELEGS_100 = 4898;
+    public static int DHAROKS_PLATELEGS_75 = 4899;
+    public static int DHAROKS_PLATELEGS_50 = 4900;
+    public static int DHAROKS_PLATELEGS_25 = 4901;
+    public static int DHAROKS_PLATELEGS_0 = 4902;
+    public static int SMALL_FISHING_NET = 303;
+    public static int BIG_FISHING_NET = 305;
+
+    public static int MOSS_LIZARD_TAIL = 28969;
+    public static int BREAM_SCALES = 28970;
+
+    public static int RAW_MOSS_LIZARD = 29076;
+    public static int COOKED_MOSS_LIZARD = 29077;
+    public static int DUAL_MACUAHUITL = 28997;
+
+    public static int RAW_LOBSTER = 377;
+
+    public static int PEACH = 6883;
+    public static int BLUE_MOON_SPEAR = 28988;
+    public static int ATLATL_DART = 28991;
+    public static int ECLIPSE_ATLATL = 29000;
+    public static int ECLIPSE_MOON_CHESTPLATE = 29004;
+    public static int ECLIPSE_MOON_TASSETS = 29007;
+    public static int ECLIPSE_MOON_HELM = 29010;
+    public static int BLUE_MOON_CHESTPLATE = 29013;
+    public static int BLUE_MOON_TASSETS = 29016;
+    public static int BLUE_MOON_HELM = 29019;
+    public static int ECLIPSE_MOON_CHESTPLATE_29031 = 29031;
+    public static int ECLIPSE_MOON_TASSETS_29033 = 29033;
+    public static int ECLIPSE_MOON_HELM_29035 = 29035;
+    public static int BLUE_MOON_CHESTPLATE_29037 = 29037;
+    public static int BLUE_MOON_TASSETS_29039 = 29039;
+    public static int BLUE_MOON_HELM_29041 = 29041;
+    public static int ECLIPSE_MOON_CHESTPLATE_BROKEN = 29049;
+    public static int ECLIPSE_MOON_TASSETS_BROKEN = 29052;
+    public static int ECLIPSE_MOON_HELM_BROKEN = 29055;
+    public static int BLUE_MOON_CHESTPLATE_BROKEN = 29058;
+    public static int BLUE_MOON_TASSETS_BROKEN = 29061;
+    public static int BLUE_MOON_HELM_BROKEN = 29064;
+
+    public static int WYRMLING_BONES = 28899;
+    public static int WATER_ORB = 571;
+    public static int RUNE_BOOTS = 4131;
+    public static int LAVA_SCALE_SHARD = 11994;
+    public static int FIRE_CAPE = 6570;
+    public static int DRAGON_DEFENDER = 12954;
+
+    public static int BONE_MACE = 28792;
+    public static int BONE_SHORTBOW = 28794;
+    public static int BONE_STAFF = 28796;
+    public static int SCURRIUS_SPINE = 28798;
+    public static int FIGHTER_TORSO = 10551;
+
+    public static int RED_PARTYHAT = 1038;
+    public static int YELLOW_PARTYHAT = 1040;
+    public static int BLUE_PARTYHAT = 1042;
+    public static int GREEN_PARTYHAT = 1044;
+    public static int PURPLE_PARTYHAT = 1046;
+    public static int WHITE_PARTYHAT = 1048;
+
+    public static int COIF = 1169;
+    public static int TWINFLAME_STAFF = 30634;
+    public static int SCURRIUS_LAMP = 28800;
+
+    public static int STRANGE_ICON = 28130;
+    public static int CRYPT_MAP = 28133;
+    public static int SPLITBARK_HELM = 3385;
+    public static int SPLITBARK_BODY = 3387;
+    public static int SPLITBARK_LEGS = 3389;
+    public static int SPLITBARK_GAUNTLETS = 3391;
+    public static int SPLITBARK_BOOTS = 3393;
+
+    public static int CALCIFIED_MOTH = 29090;
+    public static int TOME_OF_EARTH = 30064;
+    public static int TOME_OF_EARTH_EMPTY = 30066;
+    public static int SOILED_PAGE = 30068;
+    public static int DRAGON_HUNTER_WAND = 30070;
+    public static int HUEYCOATL_HIDE_COIF = 30073;
+    public static int HUEYCOATL_HIDE_BODY = 30076;
+    public static int HUEYCOATL_HIDE_CHAPS = 30079;
+    public static int HUEYCOATL_HIDE_VAMBRACES = 30082;
+    public static int HUEYCOATL_HIDE = 30085;
+    public static int HUASCA_SEED = 30088;
+    public static int GRIMY_HUASCA = 30094;
+    public static int HUASCA = 30097;
+    public static int HUASCA_POTION_UNF = 30100;
+
+    public static int RAW_SHARK = 383;
+    public static int AIR_ORB = 573;
+    public static int BRONZE_BOLTS_UNF = 9375;
+    public static int BLURITE_BOLTS_UNF = 9376;
+    public static int IRON_BOLTS_UNF = 9377;
+    public static int STEEL_BOLTS_UNF = 9378;
+    public static int MITHRIL_BOLTS_UNF = 9379;
+    public static int ADAMANT_BOLTSUNF = 9380;
+    public static int RUNITE_BOLTS_UNF = 9381;
+    public static int SILVER_BOLTS_UNF = 9382;
+
+    public static int DIVINE_SUPER_COMBAT_POTION4 = 23685;
+    public static int DIVINE_SUPER_COMBAT_POTION3 = 23688;
+    public static int DIVINE_SUPER_COMBAT_POTION2 = 23691;
+    public static int DIVINE_SUPER_COMBAT_POTION1 = 23694;
+
+    public static int BURNING_CLAWS = 29577;
+
+    // mixology stuff
+
+    public static int ALCHEMIST_LABCOAT = 29978;
+    public static int ALCHEMIST_LABCOAT_29980 = 29980;
+    public static int ALCHEMIST_PANTS = 29982;
+    public static int ALCHEMIST_PANTS_29984 = 29984;
+    public static int ALCHEMIST_GLOVES = 29986;
+    public static int ALCHEMISTS_AMULET = 29988;
+    public static int ALCHEMISTS_AMULET_29990 = 29990;
+    public static int ALCHEMISTS_AMULET_29992 = 29992;
+    public static int ALDARIUM = 29993;
+    public static int REAGENT_POUCH = 29996;
+    public static int OPEN_REAGENT_POUCH = 29998;
+    public static int POTION_STORAGE = 29999;
+    public static int CHUGGING_BARREL = 30000;
+    public static int CHUGGING_BARREL_DISASSEMBLED = 30002;
+    public static int MOX_PASTE = 30005;
+    public static int AGA_PASTE = 30007;
+    public static int LYE_PASTE = 30009;
+    public static int MAMMOTHMIGHT_MIX = 30011;
+    public static int MYSTIC_MANA_AMALGAM = 30012;
+    public static int MARLEYS_MOONLIGHT = 30013;
+    public static int ALCOAUGMENTATOR = 30014;
+    public static int AQUALUX_AMALGAM = 30015;
+    public static int AZURE_AURA_MIX = 30016;
+    public static int LIPLACK_LIQUOR = 30017;
+    public static int ANTILEECH_LOTION = 30018;
+    public static int MEGALITE_LIQUID = 30019;
+    public static int MIXALOT = 30020;
+    public static int MAMMOTHMIGHT_MIX_30021 = 30021;
+    public static int MYSTIC_MANA_AMALGAM_30022 = 30022;
+    public static int MARLEYS_MOONLIGHT_30023 = 30023;
+    public static int ALCOAUGMENTATOR_30024 = 30024;
+    public static int AQUALUX_AMALGAM_30025 = 30025;
+    public static int AZURE_AURA_MIX_30026 = 30026;
+    public static int LIPLACK_LIQUOR_30027 = 30027;
+    public static int ANTILEECH_LOTION_30028 = 30028;
+    public static int MEGALITE_LIQUID_30029 = 30029;
+    public static int MIXALOT_30030 = 30030;
+    public static int DIGWEED = 30031;
+    public static int MIXOLOGY_LAB_NOTES = 30032;
+    public static int MOONRISE_WINES = 30035;
+    public static int GRAPE_BARREL = 30037;
+
+    public static int GUAM_LEAF = 249;
+    public static int MARRENTILL = 251;
+    public static int TARROMIN = 253;
+    public static int HARRALANDER = 255;
+    public static int RANARR_WEED = 257;
+    public static int IRIT_LEAF = 259;
+    public static int AVANTOE = 261;
+    public static int KWUARM = 263;
+    public static int CADANTINE = 265;
+
+    public static int GRIMY_MARRENTILL = 201;
+    public static int GRIMY_TARROMIN = 203;
+    public static int GRIMY_TORSTOL = 219;
+    public static int TOADFLAX_POTION_UNF = 3002;
+    public static int SNAPDRAGON_POTION_UNF = 3004;
+
+    public static int LANTADYME = 2481;
+    public static int LANTADYME_POTION_UNF = 2483;
+    public static int BOX_TRAP_PACK = 12742;
+
+    public static int GOLOVANOVA_FRUIT = 13426;
+    public static int BOLOGANO_FRUIT = 13427;
+    public static int LOGAVANO_FRUIT = 13428;
+    public static int DIVINE_SUPER_ATTACK_POTION4 = 23697;
+    public static int DIVINE_SUPER_ATTACK_POTION3 = 23700;
+    public static int DIVINE_SUPER_ATTACK_POTION2 = 23703;
+    public static int DIVINE_SUPER_ATTACK_POTION1 = 23706;
+    public static int DIVINE_SUPER_STRENGTH_POTION4 = 23709;
+    public static int DIVINE_SUPER_STRENGTH_POTION3 = 23712;
+    public static int DIVINE_SUPER_STRENGTH_POTION2 = 23715;
+    public static int DIVINE_SUPER_STRENGTH_POTION1 = 23718;
+    public static int DIVINE_SUPER_DEFENCE_POTION4 = 23721;
+    public static int DIVINE_SUPER_DEFENCE_POTION3 = 23724;
+    public static int DIVINE_SUPER_DEFENCE_POTION2 = 23727;
+    public static int DIVINE_SUPER_DEFENCE_POTION1 = 23730;
+    public static int DIVINE_RANGING_POTION4 = 23733;
+    public static int DIVINE_RANGING_POTION3 = 23736;
+    public static int DIVINE_RANGING_POTION2 = 23739;
+    public static int DIVINE_RANGING_POTION1 = 23742;
+    public static int DIVINE_MAGIC_POTION4 = 23745;
+    public static int DIVINE_MAGIC_POTION3 = 23748;
+    public static int DIVINE_MAGIC_POTION2 = 23751;
+    public static int DIVINE_MAGIC_POTION1 = 23754;
+
+    public static int APPRENTICE_POTION_PACK = 29971;
+    public static int ADEPT_POTION_PACK = 29972;
+    public static int EXPERT_POTION_PACK = 29973;
+    public static int PRESCRIPTION_GOGGLES = 29974;
+    public static int COWHIDE = 1739;
+    public static int GREEN_DRAGON_LEATHER = 1745;
+    public static int BLUE_DRAGON_LEATHER = 2505;
+    public static int RED_DRAGON_LEATHER = 2507;
+    public static int BLACK_DRAGON_LEATHER = 2509;
+
+
+    public static int LEATHER = 1741;
+    public static int SILVERLIGHT_KEY_1 = 2399; // wizards key
+    public static int SILVERLIGHT_KEY_2 = 2400; //  ??
+    public static int SILVERLIGHT_KEY_3 = 2401; // sewer
+    public static int SILVERLIGHT = 2402;
+    public static int INSECT_REPELLENT = 28;
+    public static int BUCKET_OF_WAX = 30;
+    public static int LIT_BLACK_CANDLE = 32;
+    public static int EXCALIBUR = 35;
+    public static int MOLTEN_GLASS = 1775;
+    public static int LENS_MOULD = 602;
+    public static int OBSERVATORY_LENS = 603;
+    public static int GOBLIN_KITCHEN_KEY = 601;
+    public static int AMETHYST_ARROW = 21326;
+    public static int ODIUM_SHARD_1 = 11928;
+    public static int ODIUM_SHARD_2 = 11929;
+    public static int ODIUM_SHARD_3 = 11930;
+    public static int MALEDICTION_SHARD_1 = 11931;
+    public static int MALEDICTION_SHARD_2 = 11932;
+    public static int MALEDICTION_SHARD_3 = 11933;
+
+    public static int ZAMORAK_MONK_BOTTOM = 1033;
+    public static int ZAMORAK_MONK_TOP = 1035;
+
+    public static int ANCHOVY_PIZZA = 2297;
+    public static int SINISTER_KEY = 993;
+    public static int GUTHIX_DHIDE_SHIELD = 23188;
+    public static int SARADOMIN_DHIDE_SHIELD = 23191;
+    public static int ZAMORAK_DHIDE_SHIELD = 23194;
+    public static int ANCIENT_DHIDE_SHIELD = 23197;
+    public static int ARMADYL_DHIDE_SHIELD = 23200;
+    public static int BANDOS_DHIDE_SHIELD = 23203;
+    public static int ANGLER_HAT = 13258;
+    public static int ANGLER_TOP = 13259;
+    public static int ANGLER_WADERS = 13260;
+    public static int ANGLER_BOOTS = 13261;
+
+
+    public static int MINNOW = 21356;
+    public static int CLUE_BOTTLE_BEGINNER = 23129;
+    public static int CLUE_BOTTLE_EASY = 13648;
+    public static int CLUE_BOTTLE_MEDIUM = 13649;
+    public static int CLUE_BOTTLE_HARD = 13650;
+    public static int CLUE_BOTTLE_ELITE = 13651;
+    public static int RAW_SEA_TURTLE = 395;
+    public static int RAW_SWORDFISH = 371;
+    public static int COMBAT_BRACELET = 11126;
+    public static int DRAGON_WARHAMMER = 13576;
+    public static int EARTH_BATTLESTAFF = 1399;
+    public static int MYSTIC_FIRE_STAFF = 1401;
+    public static int MYSTIC_WATER_STAFF = 1403;
+    public static int MYSTIC_AIR_STAFF = 1405;
+    public static int MYSTIC_EARTH_STAFF = 1407;
+    public static int PET_DARK_CORE = 12816;
+    public static int ELYSIAN_SPIRIT_SHIELD = 12817;
+    public static int ELYSIAN_SIGIL = 12819;
+    public static int SPECTRAL_SPIRIT_SHIELD = 12821;
+    public static int SPECTRAL_SIGIL = 12823;
+    public static int ARCANE_SPIRIT_SHIELD = 12825;
+    public static int ARCANE_SIGIL = 12827;
+    public static int SPIRIT_SHIELD = 12829;
+    public static int BLESSED_SPIRIT_SHIELD = 12831;
+    public static int HOLY_ELIXIR = 12833;
+    public static int ONYX_BOLTS_E = 9245;
+
+    public static int BASTION_POTION4 = 22461;
+    public static int BASTION_POTION3 = 22464;
+    public static int BASTION_POTION2 = 22467;
+    public static int BASTION_POTION1 = 22470;
+    public static int OSMUMTENS_FANG = 26219;
+    public static int DARK_BOW = 11235;
+    public static int HELM_OF_NEITIZNOT = 10828;
+    public static int FIRE_BATTLESTAFF = 1393;
+    public static int WATER_BATTLESTAFF = 1395;
+    public static int AIR_BATTLESTAFF = 1397;
+    public static int MASK_OF_RANUL = 23522;
+    public static int MUD_RUNE = 4698;
+    public static int POTATO_CACTUS = 3138;
+
+    public static int AMETHYST = 21347;
+    public static int SHAYZIEN_GLOVES_1 = 13357;
+    public static int SHAYZIEN_BOOTS_1 = 13358;
+    public static int SHAYZIEN_HELM_1 = 13359;
+    public static int SHAYZIEN_GREAVES_1 = 13360;
+    public static int SHAYZIEN_PLATEBODY_1 = 13361;
+    public static int SHAYZIEN_GLOVES_2 = 13362;
+    public static int SHAYZIEN_BOOTS_2 = 13363;
+    public static int SHAYZIEN_HELM_2 = 13364;
+    public static int SHAYZIEN_GREAVES_2 = 13365;
+    public static int SHAYZIEN_PLATEBODY_2 = 13366;
+    public static int SHAYZIEN_GLOVES_3 = 13367;
+    public static int SHAYZIEN_BOOTS_3 = 13368;
+    public static int SHAYZIEN_HELM_3 = 13369;
+    public static int SHAYZIEN_GREAVES_3 = 13370;
+    public static int SHAYZIEN_PLATEBODY_3 = 13371;
+    public static int SHAYZIEN_GLOVES_4 = 13372;
+    public static int SHAYZIEN_BOOTS_4 = 13373;
+    public static int SHAYZIEN_HELM_4 = 13374;
+    public static int SHAYZIEN_GREAVES_4 = 13375;
+    public static int SHAYZIEN_PLATEBODY_4 = 13376;
+    public static int SHAYZIEN_GLOVES_5 = 13377;
+    public static int SHAYZIEN_BOOTS_5 = 13378;
+    public static int SHAYZIEN_HELM_5 = 13379;
+    public static int SHAYZIEN_GREAVES_5 = 13380;
+    public static int SHAYZIEN_BODY_5 = 13381;
+    public static int XERICIAN_FABRIC = 13383;
+    public static int SHAYZIEN_MEDPACK = 13382;
+    public static int MITHRIL_BOLTS = 9142;
+    public static int ADAMANT_BOLTS = 9143;
+    public static int DRAGON_MACE = 1434;
+    public static int ZOMBIE_AXE = 28810;
+    public static int MAGIC_SHORTBOW_SCROLL = 12786;
+    public static int MAGIC_SHORTBOW_I = 12788;
+    public static int WILDERNESS_CRABS_TELEPORT = 24251;
+    public static int MITHRIL_CROSSBOW = 9181;
+    public static int EMERALD_BOLTS_E = 9241;
+
+    // this is the one we needs
+    public static int FROZEN_KEY_26356 = 26356;
+    public static int FROZEN_KEY_PIECE_ARMADYL = 26358;
+    public static int FROZEN_KEY_PIECE_BANDOS = 26360;
+    public static int FROZEN_KEY_PIECE_ZAMORAK = 26362;
+    public static int FROZEN_KEY_PIECE_SARADOMIN = 26364;
+
+    public static int MOONLIGHT_ANTLER_BOLTS = 28878;
+    public static int SUNLIGHT_ANTLER = 28884;
+    public static int MOONLIGHT_ANTLER = 28887;
+    public static int SUNLIGHT_MOTH_28890 = 28890;
+
+    public static int RAW_MOONLIGHT_ANTELOPE = 29113;
+    public static int MOONLIGHT_ANTELOPE_ANTLER = 29171;
+    public static int MOONLIGHT_ANTELOPE_FUR = 29174;
+
+    public static int AGILITY_ARENA_TICKET = 29460;
+    public static int ASSORTED_FLOWERS = 2460;
+
+    public static int CURSED_GOBLIN_HAMMER = 11707;
+    public static int CURSED_GOBLIN_BOW = 11708;
+    public static int CURSED_GOBLIN_STAFF = 11709;
+    public static int ARAXYTE_VENOM_SACK = 29784;
+    public static int VERACS_PLATESKIRT_100 = 4994;
+    public static int VERACS_PLATESKIRT_75 = 4995;
+    public static int VERACS_PLATESKIRT_50 = 4996;
+    public static int VERACS_PLATESKIRT_25 = 4997;
+    public static int VERACS_PLATESKIRT_0 = 4998;
+
+    public static int ARCLIGHT = 19675;
+    public static int ANCIENT_SHARD = 19677;
+    public static int EMBERLIGHT = 29589;
+    public static int PURGING_STAFF = 29594;
+
+
+    public static int ZENYTE_SHARD = 19529;
+    public static int ZENYTE_BRACELET_19532 = 19532;
+    public static int ZENYTE_NECKLACE = 19535;
+    public static int ZENYTE_RING = 19538;
+    public static int ZENYTE_AMULET = 19541;
+    public static int JAVELIN_SHAFT = 19584;
+    public static int LIGHT_FRAME = 19586;
+    public static int HEAVY_FRAME = 19589;
+    public static int BALLISTA_LIMBS = 19592;
+    public static int INCOMPLETE_LIGHT_BALLISTA = 19595;
+    public static int INCOMPLETE_HEAVY_BALLISTA = 19598;
+    public static int BALLISTA_SPRING = 19601;
+    public static int BRONZE_JAVELIN_TIPS = 19570;
+    public static int IRON_JAVELIN_TIPS = 19572;
+    public static int STEEL_JAVELIN_TIPS = 19574;
+    public static int MITHRIL_JAVELIN_TIPS = 19576;
+    public static int ADAMANT_JAVELIN_TIPS = 19578;
+    public static int RUNE_JAVELIN_TIPS = 19580;
+    public static int DRAGON_JAVELIN_TIPS = 19582;
+
+
+    public static int SERUM_BOOK = 3395;
+    public static int MONKEY_TAIL = 19610;
+    public static int FIENDISH_ASHES = 25766;
+    public static int MALICIOUS_ASHES = 25772;
+    public static int ABYSSAL_ASHES = 25775;
+    public static int INFERNAL_ASHES = 25778;
+
+    public static int ROYAL_SEED_POD = 19564;
+    public static int HUNTERS_SUNLIGHT_CROSSBOW = 28869;
+
+    public static int TEMPOROSS_CASKET = 25590;
+    public static int FLAMTAER_HAMMER = 3678;
+    public static int ROSEWOOD_BLOWPIPE = 31583;
+    public static int ROSEWOOD_BLOWPIPE_EMPTY = 31585;
+
+    public static int ORANGE_SALAMANDER = 10146;
+    public static int RED_SALAMANDER = 10147;
+    public static int BLACK_SALAMANDER = 10148;
+    public static int IMMATURE_TECU_SALAMANDER = 28831;
+    public static int TECU_SALAMANDER = 28834; // valuable
+
+    public static int SWAMP_LIZARD = 10149;
+    public static int CAT_TRAINING_MEDAL = 1575;
+    public static int PETES_CANDLESTICK = 1577;
+    public static int THIEVES_ARMBAND = 1579;
+    public static int BLAMISH_SNAIL_SLIME = 1581;
+    public static int BLAMISH_OIL = 1582;
+    public static int FIRE_FEATHER = 1583;
+    public static int ID_PAPERS = 1584;
+    public static int OILY_FISHING_ROD = 1585;
+
+    public static int THIN_SNAIL = 3363;
+    public static int LEAN_SNAIL = 3365;
+    public static int FAT_SNAIL = 3367;
+    public static int THIN_SNAIL_MEAT = 3369;
+    public static int LEAN_SNAIL_MEAT = 3371;
+    public static int FAT_SNAIL_MEAT = 3373;
+    public static int BURNT_SNAIL = 3375;
+    public static int SAMPLE_BOTTLE = 3377;
+    public static int RAW_SLIMY_EEL = 3379;
+    public static final int IRON_DAGGER = 1203;
+}

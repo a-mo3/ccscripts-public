@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cCRedChinchompa:jar">
+    <output-path>$PROJECT_DIR$/cCBlackChinchompas/artifacts/cCRedChinchompa_jar</output-path>
+    <root id="archive" name="cCRedChinchompa.jar">
+      <element id="module-output" name="cCRedChinchompa" />
+    </root>
+  </artifact>
+</component>

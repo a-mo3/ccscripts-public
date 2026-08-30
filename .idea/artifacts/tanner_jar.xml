@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tanner:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="tanner.jar">
+      <element id="module-output" name="tanner" />
+    </root>
+  </artifact>
+</component>

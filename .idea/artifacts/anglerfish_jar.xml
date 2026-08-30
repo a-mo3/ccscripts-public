@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="anglerfish:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="anglerfish.jar">
+      <element id="module-output" name="anglerfish" />
+    </root>
+  </artifact>
+</component>

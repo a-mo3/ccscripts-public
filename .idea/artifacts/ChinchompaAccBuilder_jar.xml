@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ChinchompaAccBuilder:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="ChinchompaAccBuilder.jar">
+      <element id="module-output" name="ChinchompaAccBuilder" />
+    </root>
+  </artifact>
+</component>

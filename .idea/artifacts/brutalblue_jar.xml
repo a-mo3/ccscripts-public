@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="brutalblue:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="brutalblue.jar">
+      <element id="module-output" name="brutalblue" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

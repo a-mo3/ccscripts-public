@@ -1,0 +1,87 @@
+package org.dreambot.behaviour.method.spindel.tickspindel;
+
+import org.dreambot.api.Client;
+import org.dreambot.api.methods.skills.Skill;
+import org.dreambot.api.methods.skills.Skills;
+import org.dreambot.api.methods.walking.impl.Walking;
+import org.dreambot.api.wrappers.items.Item;
+import org.dreambot.behaviour.method.calvarion.tickcalv.CalvarionTickEat;
+import org.dreambot.behaviour.method.spindel.AntiCrashWildyBosses;
+import org.dreambot.fractals.TickDecision;
+import org.dreambot.fractals.loadout.ItemVariants;
+
+public class TickSpindelPotionDecision extends TickDecision {
+
+    int lastXpDrop = 0;
+
+    @Override
+    public boolean evaluate() {
+        boolean isOnEatDelay = TickSpindelEatDecision.lastAteTick == 0 || Client.getGameTick() - TickSpindelEatDecision.lastAteTick < 3;
+        boolean isOnCombatDelay = lastXpDrop == 0 || Client.getGameTick() - lastXpDrop < 4; // chainmace is assumed, 4 spd weapon
+
+        // emergency prayer pot
+        if (Skills.getBoostedLevel(Skill.PRAYER) == 0) {
+            log("Emergency prayer pot");
+            Item prayPot = ItemVariants.BLIGHTED_SUPER_RESTORE.getItem();
+            if (prayPot != null) {
+                log("Prayer pot up");
+                prayPot.interact();
+            } else {
+                log("No prayer pot!");
+                AntiCrashWildyBosses.hasToLeave = true;
+            }
+            return false;
+        }
+
+        if (!isOnEatDelay && !isOnCombatDelay) {
+            log("No delay active not an acceptable tick to pot up " + " Atk " + lastXpDrop + " Eat: " + CalvarionTickEat.lastAteTick);
+            return false;
+        }
+
+        // prayer pot
+        int missingPrayer = Skills.getRealLevel(Skill.PRAYER) - Skills.getBoostedLevel(Skill.PRAYER);
+        if (missingPrayer > (7 + (Skills.getRealLevel(Skill.PRAYER) * 0.25))) {
+            Item prayPot = ItemVariants.BLIGHTED_SUPER_RESTORE.getItem();
+            if (prayPot != null) {
+                log("Prayer pot up");
+                prayPot.interact();
+                return false;
+            } else {
+                log("No prayer pot!");
+                AntiCrashWildyBosses.hasToLeave = true;
+            }
+        }
+
+        if (Walking.getRunEnergy() < 10 ) {
+            Item staminaPot = ItemVariants.STAMINA_POTION.getItem();
+            Item energyPot = ItemVariants.ENERGY_POTION.getItem();
+            if (!Walking.isStaminaActive() && staminaPot != null) {
+                log("Sip stamina");
+                staminaPot.interact();
+                return false;
+            } else if (energyPot != null) {
+                log("Sip energy");
+                energyPot.interact();
+                return false;
+            }
+            log("Wants to sip stamina or energy but has neither");
+        }
+
+        // todo range or magic pot
+        // combat pot
+        int missingStrengthBoost = Skills.getBoostedLevel(Skill.STRENGTH) - Skills.getRealLevel(Skill.STRENGTH);
+        int maxStrBoost = (5 + (int) (Skills.getRealLevel(Skill.STRENGTH) * 0.15));
+        if (missingStrengthBoost < (maxStrBoost / 2)) {
+            log("Less than half str bonus");
+            Item combatPot = ItemVariants.SUPER_COMBAT_POTION.getItem();
+            if (combatPot != null) {
+                log("Combat pot up");
+                combatPot.interact();
+                return false;
+            } else {
+                log("No Combat pot!");
+            }
+        }
+        return false;
+    }
+}

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="imps:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="imps.jar">
+      <element id="module-output" name="imps" />
+    </root>
+  </artifact>
+</component>

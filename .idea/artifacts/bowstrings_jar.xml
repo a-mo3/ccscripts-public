@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="bowstrings:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="bowstrings.jar">
+      <element id="module-output" name="bowstrings" />
+    </root>
+  </artifact>
+</component>

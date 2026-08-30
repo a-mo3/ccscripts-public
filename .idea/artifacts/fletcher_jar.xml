@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="fletcher:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="fletcher.jar">
+      <element id="module-output" name="fletcher" />
+    </root>
+  </artifact>
+</component>

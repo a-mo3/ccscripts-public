@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="antelopes:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="antelopes.jar">
+      <element id="module-output" name="antelopes" />
+    </root>
+  </artifact>
+</component>

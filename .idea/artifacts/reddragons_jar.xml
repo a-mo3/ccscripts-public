@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="reddragons:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="reddragons.jar">
+      <element id="module-output" name="reddragons" />
+      <element id="extracted-dir" path="$USER_HOME$/DreamBot/BotData/client.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,73 @@
+syntax = "proto3";
+
+package tutorial;
+
+option java_multiple_files = true;
+option java_package = "org.dreambot.analytics";
+option java_outer_classname = "HeartbeatProto";
+
+// matrix of time(in 50ms intervals) spent in a percentile box. flattened
+message MouseData {
+  uint32 rows = 1;
+  uint32 cols = 2;
+  repeated uint32 mouse_density = 3 [packed = true];
+}
+
+message HeartBeat {
+  // antiban focused stuff
+  MouseData mouse_pos = 1; // flat 2d array of your mouse pos every 50ms
+  MouseData mouse_clicks = 39; // flat 2d array on where you clicked
+  // per mouse click recorded a relative click time, the time left on the 15 minute timer
+  // mouse position is implicitly tracked 50ms, so by knowing time left you know the index of the preceding mouse pos
+  // so this encodes mouse path
+  repeated uint32 relative_click_time = 45;
+  map<string, uint32> execute_counts = 2; // how many times the script executed, string is the decision path
+  map<uint32, uint32> region_densities = 38; // great for bug detection
+
+  // flags
+  uint64 time = 4;
+  string account_hash = 5;
+  string dreambot_token = 6;
+  string dreambot_user = 7;
+  string script_name = 8;
+  uint32 heart_beat_length = 9;
+  bool no_click_walk = 10;
+  bool menu_manip = 11;
+  uint32 time_breaking = 12;
+  bool is_member = 13;
+  bool is_covert = 14;
+  uint32 mouse_speed = 40;
+  bool is_using_beta = 41;
+  uint32 ironman_state = 43; // state of varbit 1777
+  // ive seen reports today of manual bans specifically on certain domains,
+  // EF uses a set of domains, xitroo is a temp mail provider that got banned today
+  // this just tracks the domain and thats why
+  string email_domain = 44;
+
+  uint32 wealth = 42;
+  // experience, for behavioural antiban
+  uint32 attack = 3; // dont think about it.
+  uint32 strength = 15;
+  uint32 defence = 16;
+  uint32 ranged = 17;
+  uint32 prayer = 18;
+  uint32 magic = 19;
+  uint32 runecraft = 20;
+  uint32 construction = 21;
+  uint32 hitpoints = 22;
+  uint32 agility = 23;
+  uint32 herblore = 24;
+  uint32 thieving = 25;
+  uint32 crafting = 26;
+  uint32 fletching = 27;
+  uint32 slayer = 28;
+  uint32 hunter = 29;
+  uint32 mining = 30;
+  uint32 smithing = 31;
+  uint32 fishing = 32;
+  uint32 cooking = 33;
+  uint32 firemaking = 34;
+  uint32 woodcutting = 35;
+  uint32 farming = 36;
+  uint32 sailing = 37;
+}

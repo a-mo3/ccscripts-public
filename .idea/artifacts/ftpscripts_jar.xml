@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ftpscripts:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="ftpscripts.jar">
+      <element id="module-output" name="ftpscripts" />
+    </root>
+  </artifact>
+</component>

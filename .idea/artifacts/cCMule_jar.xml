@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cCMule:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="cCMule.jar">
+      <element id="module-output" name="cCMule" />
+    </root>
+  </artifact>
+</component>

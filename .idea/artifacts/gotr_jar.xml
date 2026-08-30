@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="gotr:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="gotr.jar">
+      <element id="module-output" name="gotr" />
+    </root>
+  </artifact>
+</component>

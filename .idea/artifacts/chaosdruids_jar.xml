@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="chaosdruids:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="chaosdruids.jar">
+      <element id="module-output" name="chaosdruids" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="pvmscripts:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="pvmscripts.jar">
+      <element id="module-output" name="pvmscripts" />
+    </root>
+  </artifact>
+</component>

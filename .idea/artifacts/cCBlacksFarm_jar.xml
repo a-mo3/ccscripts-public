@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cCBlacksFarm:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="cCBlacksFarm.jar">
+      <element id="module-output" name="cCBlacksFarm" />
+    </root>
+  </artifact>
+</component>

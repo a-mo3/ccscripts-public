@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tutisland:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="tutisland.jar">
+      <element id="module-output" name="tutisland" />
+    </root>
+  </artifact>
+</component>

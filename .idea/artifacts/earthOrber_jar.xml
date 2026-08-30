@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="earthOrber:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="earthOrber.jar">
+      <element id="module-output" name="earthOrber" />
+    </root>
+  </artifact>
+</component>

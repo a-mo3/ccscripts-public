@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="f2paio:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="f2paio.jar">
+      <element id="module-output" name="f2paio" />
+    </root>
+  </artifact>
+</component>

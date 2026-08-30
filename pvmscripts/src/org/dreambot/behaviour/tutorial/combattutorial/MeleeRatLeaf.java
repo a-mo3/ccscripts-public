@@ -1,0 +1,36 @@
+package org.dreambot.behaviour.tutorial.combattutorial;
+
+import org.dreambot.api.methods.interactive.NPCs;
+import org.dreambot.api.methods.interactive.Players;
+import org.dreambot.api.methods.map.Area;
+import org.dreambot.api.methods.walking.impl.Walking;
+import org.dreambot.antiban.Antiban;
+import org.dreambot.api.utilities.Sleep;
+import org.dreambot.api.wrappers.interactive.NPC;
+import org.dreambot.behaviour.tutorial.MyVarps;
+import org.dreambot.fractals.Fractal;
+import org.dreambot.settings.timing.ReactionGenerator;
+
+public class MeleeRatLeaf extends Fractal {
+    Area RAT_PIT = new Area(3097, 9522, 3109, 9514);
+
+    @Override
+    public boolean isValid() {
+        return MyVarps.getTutVarp() < 470;
+    }
+
+    @Override
+    public int onLoop() {
+        if (!RAT_PIT.contains(Players.getLocal()) && Walking.shouldWalk(2)) {
+            if (Walking.shouldWalk(6)) Walking.walk(RAT_PIT.getCenter());
+            return ReactionGenerator.getNormal();
+        }
+
+        NPC rat = NPCs.closest("Giant rat");
+        if (rat != null && !Players.getLocal().isInCombat()) {
+            rat.interact("Attack");
+            Sleep.sleepUntil(() -> Players.getLocal().isInCombat(), 5000);
+        }
+        return ReactionGenerator.getNormal();
+    }
+}

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CannonballAccBuilder:jar">
+    <output-path>$PROJECT_DIR$/cCBlackChinchompas/artifacts/CannonballAccBuilder_jar</output-path>
+    <root id="archive" name="CannonballAccBuilder.jar">
+      <element id="module-output" name="CannonballAccBuilder" />
+    </root>
+  </artifact>
+</component>
